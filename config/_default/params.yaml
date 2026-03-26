@@ -101,6 +101,9 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
+# Power ups
+  power_ups:
+    hide_powered_by: true
 
 # Extensions
 
@@ -117,7 +120,5 @@ publications:
   date_format: January 2006
   citation_style: apa
 
-# Power ups
-power_ups:
-  hide_powered_by: true
+
 
