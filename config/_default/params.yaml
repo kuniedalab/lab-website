@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Kunieda Lab. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/kuniedalab/lab-website'
     content_dir: content
     branch: main
   avatar:
@@ -91,7 +91,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: wowchemy
+    provider: kunieda
     algolia:
       app_id: ''
       api_key: ''
