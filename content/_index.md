@@ -11,8 +11,7 @@ sections:
       image:
         filename: welcome.jpg
       text: |
-        <br>
-        
+        **Decoding molecular logic of survival**<br>Mechanisms of extreme tolerance<br>
         The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
   
   - block: collection
