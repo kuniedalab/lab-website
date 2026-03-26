@@ -7,12 +7,11 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Logic of Survival
-      subtitle: Mechanisms of extreme tolerance
+      title: 
       image:
         filename: welcome.jpg
       text: |
-        *Decoding molecular logic of survival*<br>Mechanisms of extreme tolerance
+        **Decoding Molecular Logic of Survival**<br>*Mechanisms of Extreme Tolerance*
       
   - block: collection
     content:
