@@ -11,14 +11,14 @@ body {
 
 // 2. 見出し（Research, News等）をシャープにする
 h1, h2, h3 {
-  font-weight: 700;
+  font-weight: 1000;
   letter-spacing: -0.02em; // 見出しは少し詰めると「力強く」見えます
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 // 3. ナビゲーションメニューをシュッとさせる
 .navbar-nav .nav-link {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   text-transform: uppercase; // 英字を大文字にするとカッコいい（お好みで）
 }
