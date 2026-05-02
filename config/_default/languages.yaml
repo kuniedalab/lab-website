@@ -11,7 +11,7 @@ en:
   contentDir: content/en
   title: Kunieda Laboratory Web Site
   main:
-    - name: News
+    - name: News3
       url: news
       weight: 10
     - name: Research
