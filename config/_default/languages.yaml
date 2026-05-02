@@ -4,11 +4,31 @@
 
 # Default language
 en:
-  languageCode: en-us
+  languageCode: en
   languageName: English
   weight: 1
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
+  title: Kunieda Laboratory Web Site
+  main:
+    - name: News
+      url: news
+      weight: 10
+    - name: Research
+      url: research
+      weight: 20
+    - name: Publication
+      url: publication
+      weight: 30
+    - name: Member
+      url: member
+      weight: 40
+    - name: Contact
+      url: contact
+      weight: 50
+    - name: Link
+      url: link
+      weight: 60
 
 ja:
   languageCode: ja
