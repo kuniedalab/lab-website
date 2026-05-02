@@ -3,22 +3,44 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-main:
-  - name: News
-    url: news
-    weight: 10
-  - name: Research
-    url: research
-    weight: 20
-  - name: Publication
-    url: publication
-    weight: 30
-  - name: Member
-    url: member
-    weight: 40
-  - name: Contact
-    url: contact
-    weight: 50
-  - name: Link
-    url: link
-    weight: 60
+en:
+  main:
+    - name: News
+      url: news
+      weight: 10
+    - name: Research
+      url: research
+      weight: 20
+    - name: Publication
+      url: publication
+      weight: 30
+    - name: Member
+      url: member
+      weight: 40
+    - name: Contact
+      url: contact
+      weight: 50
+    - name: Link
+      url: link
+      weight: 60
+
+ja:
+  main:
+    - name: ニュース
+      url: news
+      weight: 10
+    - name: 研究内容
+      url: research
+      weight: 20
+    - name: 研究業績
+      url: publication
+      weight: 30
+    - name: メンバー
+      url: member
+      weight: 40
+    - name: コンタクト
+      url: contact
+      weight: 50
+    - name: リンク
+      url: link
+      weight: 60
