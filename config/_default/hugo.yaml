@@ -20,7 +20,7 @@ languages:
     languageName: English
     weight: 1
   ja:
-    languageName: 日本語
+    languageName: 邦文
     weight: 2
     
 ############################
