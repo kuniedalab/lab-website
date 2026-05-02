@@ -11,7 +11,7 @@ sections:
       image:
         filename: welcome.jpg
       text: |
-        **Decoding Molecular Logic of Survival**<br>*Mechanisms of Extreme Tolerance*
+        **生き抜くための分子ロジックを読み解く**<br>*極限環境耐性メカニズム*
       
   - block: collection
     content:

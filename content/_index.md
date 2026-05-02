@@ -11,7 +11,7 @@ sections:
       image:
         filename: welcome.jpg
       text: |
-        **Decoding Molecular Logic of Survival**<br>*Mechanisms of Extreme Tolerance*
+        **Example**<br>*Mechanisms of Extreme Tolerance*
       
   - block: collection
     content:
