@@ -15,6 +15,14 @@ hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
+languages:
+  en:
+    languageName: English
+    weight: 1
+  ja:
+    languageName: 日本語
+    weight: 2
+    
 ############################
 ## ADVANCED
 ############################
