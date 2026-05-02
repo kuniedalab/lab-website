@@ -10,6 +10,7 @@ en:
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
   title: Kunieda Laboratory Web Site
+  menu:
   main:
     - name: News3
       url: news
