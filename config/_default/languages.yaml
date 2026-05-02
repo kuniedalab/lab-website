@@ -11,25 +11,25 @@ en:
   contentDir: content/en
   title: Kunieda Laboratory Web Site
   menu:
-  main:
-    - name: News3
-      url: news
-      weight: 10
-    - name: Research
-      url: research
-      weight: 20
-    - name: Publication
-      url: publication
-      weight: 30
-    - name: Member
-      url: member
-      weight: 40
-    - name: Contact
-      url: contact
-      weight: 50
-    - name: Link
-      url: link
-      weight: 60
+    main:
+      - name: News
+        url: news
+        weight: 10
+      - name: Research
+        url: research
+        weight: 20
+      - name: Publication
+        url: publication
+        weight: 30
+      - name: Member
+        url: member
+        weight: 40
+      - name: Contact
+        url: contact
+        weight: 50
+      - name: Link
+        url: link
+        weight: 60
 
 ja:
   languageCode: ja
