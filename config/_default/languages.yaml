@@ -15,6 +15,27 @@ ja:
   languageName: Japanese
   weight: 2
   contentDir: content/ja
+  title: 國枝研サイト
+  menu:
+    main:
+    - name: ニュース
+      url: news
+      weight: 10
+    - name: 研究内容
+      url: research
+      weight: 20
+    - name: 研究業績
+      url: publication
+      weight: 30
+    - name: メンバー
+      url: member
+      weight: 40
+    - name: コンタクト
+      url: contact
+      weight: 50
+    - name: リンク
+      url: link
+      weight: 60
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
