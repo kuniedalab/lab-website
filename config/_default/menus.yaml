@@ -5,22 +5,22 @@
 
 en:
   main:
-    - name: News
+    - name: News2
       url: news
       weight: 10
-    - name: Research
+    - name: Research2
       url: research
       weight: 20
-    - name: Publication
+    - name: Publication2
       url: publication
       weight: 30
-    - name: Member
+    - name: Member2
       url: member
       weight: 40
-    - name: Contact
+    - name: Contact2
       url: contact
       weight: 50
-    - name: Link
+    - name: Link2
       url: link
       weight: 60
 
