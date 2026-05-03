@@ -10,6 +10,8 @@ appearance:
   theme_night: minimal
   font: modern
   font_size: L
+  logo:
+    filename: logo2.png
 
 # SEO
 
