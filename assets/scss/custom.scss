@@ -14,19 +14,20 @@
 
 /* 2. 地球アイコンがあった場所に国旗を表示する */
 /* 日本語ページ（html lang="ja"）の場合 */
-html[lang="ja"] .nav-link i.fa-globe::after {
-  content: "🇯🇵";
+//html[lang="ja"] 
+.nav-link i.fa-globe::after {
+  content: "🇯🇵/🇺🇸";
   display: inline-block;
   visibility: visible;
 }
 
 /* 英語ページ（html lang="en"）の場合 */
-html[lang="en"] .nav-link i.fa-globe::after {
+/*html[lang="en"] .nav-link i.fa-globe::after {
   content: "🇺🇸";
   display: inline-block;
   visibility: visible;
 }
-
+*/
 
 // 1. 日本語フォントを最優先にし、行間を少し詰める
 body {
