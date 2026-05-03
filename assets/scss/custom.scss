@@ -3,7 +3,7 @@
 }
 
 /* サイトタイトルの前にロゴを表示 */
-/*
+
 .navbar-brand::before {
   content: "";
   display: inline-block;
@@ -13,7 +13,7 @@
   height: 40px;
   
   // 画像の指定（必ず / から始める）
-  background-image: url("/media/logo.png");
+  background-image: url("/media/logos.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -22,7 +22,7 @@
   margin-right: 10px;
   vertical-align: middle;
 }
-*/
+
 /* タイトル自体の位置を微調整する場合 */
 /*.navbar-brand {
   display: flex;
