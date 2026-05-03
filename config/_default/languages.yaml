@@ -21,9 +21,6 @@ en:
       - name: Publication
         url: publication
         weight: 30
-      - name: Funding
-        url: funding
-        weight: 35
       - name: Member
         url: member
         weight: 40
@@ -51,9 +48,6 @@ ja:
     - name: 研究業績
       url: publication
       weight: 30
-    - name: ファンド
-      url: funding
-      weight: 35
     - name: メンバー
       url: member
       weight: 40
