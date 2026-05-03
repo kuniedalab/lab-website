@@ -3,25 +3,26 @@
 }
 
 /* サイトタイトルの前にロゴを表示 */
+/*
 .navbar-brand::before {
   content: "";
   display: inline-block;
   
-  /* ロゴのサイズ（お好みで調整してください） */
+  // ロゴのサイズ（お好みで調整してください）
   width: 40px; 
   height: 40px;
   
-  /* 画像の指定（必ず / から始める） */
+  // 画像の指定（必ず / から始める）
   background-image: url("/media/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
   
-  /* タイトルとの隙間と位置調整 */
+  // タイトルとの隙間と位置調整 
   margin-right: 10px;
   vertical-align: middle;
 }
-
+*/
 /* タイトル自体の位置を微調整する場合 */
 /*.navbar-brand {
   display: flex;
