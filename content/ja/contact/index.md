@@ -8,7 +8,8 @@ sections:
   - block: contact
     content:
       title: Contact
-      text: |- Takekazu Kunieda
+      text: |- 
+        Takekazu Kunieda
       email: kunieda [at] sci.u-hyogo.ac.jp
       #phone: 888 888 88 88
       address:
