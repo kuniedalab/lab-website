@@ -4,9 +4,14 @@
 
 # Default language
 en:
-  languageCode: en
-  languageName: English
-  weight: 1
+  locale: en
+  label: English
+  weight: 10
+  params:
+    locale:
+      date_format: 'Jan 2, 2006'
+      time_format: '3:04 PM'
+      address_format: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
   title: Kunieda Lab
@@ -27,25 +32,46 @@ en:
       - name: Contact
         url: contact
         weight: 50
-      - name: Link
-        url: link
-        weight: 60
+#      - name: Link
+#        url: link
+#        weight: 60
 
 ja:
-  languageCode: ja
-  languageName: Japanese
-  weight: 2
+  locale: ja
+  label: Japanese
+  weight: 5
+  params:
+    locale:
+      date_format: '2006年01月02日'
+      time_format: '15:04'
+      address_format: ja-jp
   contentDir: content/ja
-  title: 國枝研究室（生体情報学II分野）
+  title: 國枝研究室（生体情報学II）
   menu:
     main:
-    - name: ニュース
+    - name: News
       url: news
       weight: 10
     - name: 研究内容
       url: research
+      identifier: research
       weight: 20
-    - name: 研究業績
+    - name: クマムシとは？
+      parent: research
+      identifier: tardigrade
+      url: tardigrade
+      weight: 10
+    - name: クマムシの耐性メカニズム
+      parent: research
+      identifier: tolerance
+      url: tolerance
+      weight: 20
+    - name: ワムシの耐性
+      parent: research
+      identifier: rotifer
+      url: rotifer
+      weight: 30
+    - name: 業績
       url: publication
       weight: 30
     - name: メンバー
@@ -54,9 +80,9 @@ ja:
     - name: コンタクト
       url: contact
       weight: 50
-    - name: リンク
-      url: link
-      weight: 60
+#    - name: リンク
+#      url: link
+#      weight: 60
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:

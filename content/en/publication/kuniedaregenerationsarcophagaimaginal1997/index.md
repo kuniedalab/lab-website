@@ -1,0 +1,16 @@
+---
+title: "Regeneration of Sarcophaga Imaginal Discs in Vitro: Implication of 20-Hydroxyecdysone"
+authors:
+  - Takekazu Kunieda
+  - Shoichiro Kurata
+  - Shunji Natori
+date: 1997-03-01
+publication_types:
+  - "extreme-biology"
+publication: "*Developmental Biology*, **183**(1), 86-94"
+doi: "10.1006/dbio.1996.8498"
+abstract: "When the 3/4 sectors of leg imaginal discs of Sarcophaga were cultured in vitro in the presence of 2.5 x 10(-8) M 20-hydroxyecdysone, wound healing and restoration of their morphology occurred. This concentration of ecdysone was critical for wound healing and was 40 times lower than that necessary for inducing differentiation of imaginal discs in vitro. Lost positional values revealed by expression of the wingless gene were found to show partial recovery under these conditions. These results suggest that a low titer of ecdysone is essential for the regeneration of imaginal discs."
+# pmid: 9119117
+draft: false
+featured: false
+---

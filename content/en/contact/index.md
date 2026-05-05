@@ -1,6 +1,6 @@
 ---
-title: コンタクト
-date: 2026-05-05
+title: Contact
+date: 2026-05-03
 
 type: landing
 
@@ -8,8 +8,18 @@ sections:
   - block: contact
     content:
       title: Contact
-      text: |- 
-        Takekazu Kunieda
+      text: |-
+        <div style="display: flex; gap: 2em; align-items: flex-start;">
+        <img src="/media/kuni_portrait_lite.jpg" style="height: 170px; border-radius: 8px;">
+        <div>
+        <strong>Professor Takekazu Kunieda</strong><br>
+        <br>
+        Department of Life Science,<br>
+        Graduate School of Science,<br>
+        University of Hyogo
+        </div>
+        </div>
+        <br>
       email: kunieda [at] sci.u-hyogo.ac.jp
       #phone: 888 888 88 88
       address:
@@ -20,7 +30,7 @@ sections:
         country: JAPAN
         country_code: JP
       coordinates:
-        latitude: '34.92917.4275'
+        latitude: '34.9291'
         longitude: '134.44589'
       directions: Enter Research Building and take the lift to Office 520 on Floor 5
       #office_hours:
@@ -37,26 +47,33 @@ sections:
       #autolink: true
     
       # Email form provider
+      #form:
+      #  provider: netlify
+      #  formspree:
+      #    id:
+      #  netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+      #    captcha: false
     design:
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+#  - block: markdown
+#    content:
+#      title:
+#      subtitle: ''
+#      text:
+#    design:
+#      columns: '1'
+#      background:
+#        image: 
+#          filename: contact.jpg
+#          filters:
+#            brightness: 1
+#          parallax: false
+#          position: center
+#          size: cover
+#          text_color_light: true
+#      spacing:
+#        padding: ['20px', '0', '20px', '0']
+#      css_class: fullscreen
 ---

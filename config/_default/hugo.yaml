@@ -10,7 +10,7 @@ baseURL: 'https://kuniedalab.org/' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: ja
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: true
 removePathAccents: true
