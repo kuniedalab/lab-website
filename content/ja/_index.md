@@ -37,6 +37,22 @@ sections:
           parallax: false
           size: cover
         text_color_light: true
+  
+  - block: markdown
+    content:
+      text: |
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
+          {{< cta cta_link="./tardigrade/" cta_text="クマムシとは？ →" >}}
+          {{< cta cta_link="./tolerance/" cta_text="クマムシの耐性メカニズム →" >}}
+          {{< cta cta_link="./rotifer/" cta_text="ワムシの耐性 →" >}}
+        </div>
+        🚚❗國枝研（くまむし研究グループ）は2025年4月に兵庫県立大学理学研究科に移動しました。<br>
+    design:
+      # 上下左右の余白を最小限にする [上, 右, 下, 左]
+      spacing:
+        padding: ["10px", "0", "10px", "0"]
+      # カラムを1にすると、タイトル分のスペースが消えます
+      columns: "1"
       
   - block: collection
     content:
@@ -56,6 +72,8 @@ sections:
     design:
       view: card
       columns: '1'
+      spacing:
+        padding: ["30px", "0", "10px", "0"]
   
 #  - block: markdown
 #    content:
@@ -74,7 +92,7 @@ sections:
 #          size: cover
 #          text_color_light: true
 #      spacing:
-#        padding: ['20px', '0', '20px', '0']
+#        padding: ['30px', '0', '20px', '0']
 #      css_class: fullscreen
 
   - block: collection
@@ -89,6 +107,8 @@ sections:
     design:
       view: citation
       columns: '1'
+      spacing:
+        padding: ["30px", "0", "10px", "0"]
 
   - block: markdown
     content:
@@ -98,4 +118,6 @@ sections:
         {{% cta cta_link="./member/" cta_text="Meet the team →" %}}
     design:
       columns: '1'
+      spacing:
+        padding: ["10px", "0", "10px", "0"]
 ---
