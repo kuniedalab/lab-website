@@ -1,6 +1,6 @@
 ---
 title: All News
-
+type: post
 # Listing view
 view: compact
 
