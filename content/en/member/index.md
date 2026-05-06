@@ -30,12 +30,12 @@ sections:
     content:
       title: Undergrad Students
       text: |-
-        ・Mana Ikeda (B4)<br>
-        ・Ryota Kishimoto (B4)<br>
-        ・Nao Kusumoto (B4)<br>
-        ・Yusei Sato (B4)<br>
-        ・Tenma Shingai (B4)<br>
-        ・Kensho Hosoki (B4)<br>
-        ・Yui Miyazaki (B4)<br>
-        ・Daisaku Yuasa (B4)<br>
+        ・Mana Ikeda<br>
+        ・Ryota Kishimoto<br>
+        ・Nao Kusumoto<br>
+        ・Yusei Sato<br>
+        ・Tenma Shingai<br>
+        ・Kensho Hosoki<br>
+        ・Yui Miyazaki<br>
+        ・Daisaku Yuasa<br>
 ---

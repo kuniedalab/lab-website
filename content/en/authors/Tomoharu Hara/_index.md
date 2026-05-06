@@ -4,14 +4,14 @@ title: Tomoharu Hara
 weight: 100
 
 # Full Name (for SEO)
-first_name: Takekazu
-last_name: Kunieda
+first_name: Tomoharu
+last_name: Hara
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: M2
+role: Master's student
 
 # Organizations/Affiliations
 organizations:

@@ -4,11 +4,11 @@ title: Kota Shinzaki
 weight: 50
 
 # Full Name (for SEO)
-first_name: Takekazu
-last_name: Kunieda
+first_name: Kota
+last_name: Shinzaki
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Visiting Researcher

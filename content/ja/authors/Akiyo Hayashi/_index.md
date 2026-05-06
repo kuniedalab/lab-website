@@ -4,20 +4,20 @@ title: 林 晃世
 weight: 40
 
 # Full Name (for SEO)
-first_name: Takekazu
-last_name: Kunieda
+first_name: 晃世
+last_name: 林
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: 客員研究員
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Hyogo
-    url: 'https://kuniedalab.org/en/'
-#    url: 'https://www.sci.u-hyogo.ac.jp/english/'
+  - name: 兵庫県立大学
+#    url: 'https://kuniedalab.org/en/'
+    url: 'https://www.sci.u-hyogo.ac.jp/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research focuses on biological resilience in extreme environments and the synthesis of artificial life.

@@ -4,11 +4,11 @@ title: Akiyo Hayashi
 weight: 40
 
 # Full Name (for SEO)
-first_name: Takekazu
-last_name: Kunieda
+first_name: Akiyo
+last_name: Hayashi
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Visiting Researcher

@@ -4,14 +4,14 @@ title: Seiha Toyoshima
 weight: 120
 
 # Full Name (for SEO)
-first_name: Takekazu
-last_name: Kunieda
+first_name: Seiha
+last_name: Toyoshima
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: M1
+role: Master's student
 
 # Organizations/Affiliations
 organizations:
