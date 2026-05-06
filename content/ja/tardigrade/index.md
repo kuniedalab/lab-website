@@ -43,6 +43,9 @@ sections:
             　また、乾眠状態のクマムシが吸水して復活する過程は、生命活動を示さない物体から生命活動が始まる過程ともいえます。この過程で何が起きているかを調べることで、生命とは何かという根本的な疑問に迫りたいと考えています。さらに研究が進めば、人工的に生命活動を生み出すこともできるようになるかもしれません。</p>
           </details>
         </div>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
+          {{< cta cta_link="./tolerance/" cta_text="クマムシの耐性メカニズム →" >}}
+        </div>
 #        align: center
     design:
       columns: "1"
