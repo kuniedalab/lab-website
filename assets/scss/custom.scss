@@ -16,6 +16,14 @@
     display: inline;
   }
 }*/
+/* ダークモード設定がある箇所、またはファイルの末尾に追加 */
+@media (prefers-color-scheme: dark) {
+  .btn-primary { /* お使いのボタンのクラス名に合わせてください */
+    color: #ffffff !important;
+    /* 背景色も調整が必要な場合は以下も追加 */
+    /* background-color: #333333; */
+  }
+}
 
 .faq details {
   border-bottom: 1px solid #ddd;
