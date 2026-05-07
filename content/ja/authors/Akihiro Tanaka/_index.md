@@ -2,7 +2,7 @@
 # Display name
 title: 田中 彬寛
 name: Akihiro Tanaka
-weight: 10
+weight: 30
 
 # Full Name (for SEO)
 first_name: 彬寛
