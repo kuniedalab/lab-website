@@ -44,7 +44,8 @@ sections:
         <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
           {{< cta cta_link="./tardigrade/" cta_text="クマムシとは？ →" >}}
           {{< cta cta_link="./tolerance/" cta_text="クマムシの耐性メカニズム →" >}}
-          {{< cta cta_link="./rotifer/" cta_text="ワムシの耐性 →" >}}
+          {{< cta cta_link="./rotifer/" cta_text="ワムシとは？ →" >}}
+          {{< cta cta_link="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" cta_text="細胞周期 →" >}}
         </div>
         🚚❗國枝研（くまむし研究グループ）は2025年4月に兵庫県立大学理学研究科に移動しました。<br>
     design:
