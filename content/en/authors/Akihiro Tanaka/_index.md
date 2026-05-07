@@ -4,8 +4,8 @@ title: Akihiro Tanaka
 weight: 30
 
 # Full Name (for SEO)
-first_name: Takekazu
-last_name: Kunieda
+first_name: Akihiro
+last_name: Tanaka
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,24 +20,23 @@ organizations:
 #    url: 'https://www.sci.u-hyogo.ac.jp/english/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research focuses on biological resilience in extreme environments and the synthesis of artificial life.
+bio: I aim to elucidate the molecular mechanisms of anhydrobiosis—how organisms sense desiccation, survive extreme dehydration, and recover upon rehydration.
 
 interests:
-  - Extreme Biology
-  - Biological Resilience
-  - Artificial Life
+  - Anhydrobiosis
+  - Dormancy
 
 education:
   courses:
-    - course: PhD in Pharmaceutical Science
+    - course: Ph.D. in Science
       institution: University of Tokyo
-      year: 1998
-    - course: MPharm in Pharmaceutical Science
+      year: 2023
+    - course: Master of Science
       institution: University of Tokyo
-      year: 1995
-    - course: BPharm in Pharmaceutical Science
-      institution: University of Tokyo
-      year: 1993
+      year: 2020
+    - course: Bachelor of Science
+      institution: University of Kyoto
+      year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -46,16 +45,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:kunieda@sci.u-hyogo.ac.jp'
-  - icon: x-twitter
-    icon_pack: fab
-    link: https://x.com/kuniedat
+    link: 'mailto:akihiro.tanaka@sci.u-hyogo.ac.jp'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.jp/citations?user=fgbwU-IAAAAJ
-  - icon: researchgate
-    icon_pack: ai
-    link: https://www.researchgate.net/profile/Takekazu-Kunieda
+    link: https://scholar.google.co.jp/citations?user=L4LFdDgAAAAJ&hl=ja
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -74,5 +67,4 @@ user_groups:
   - Staffs
 ---
 
-<strong>Takekazu Kunieda</strong> is a Professor of Extreme Biology at the University of Hyogo, Japan. He leads the Biological Signaling II Lab, which explores the molecular mechanisms of extreme resilience in <strong>tardigrades and rotifers</strong>.<br><br> His work seeks to bridge these natural survival strategies with the <strong>synthesis of artificial life</strong>, ultimately aiming to illuminate <strong>the fundamental boundary between inanimate matter and living systems</strong>.
-
+<strong>Akihiro Tanaka</strong> is an Assistant Professor of the Biological Signaling Lab at the University of Hyogo, Japan. He focuses on the functional analysis of tardigrade-specific proteins.<br><br> His work aims to elucidate the molecular mechanisms underlying the remarkable stress tolerance of tardigrades.

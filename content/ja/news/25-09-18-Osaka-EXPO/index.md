@@ -1,7 +1,7 @@
 ---
 title: 研究室で大阪万博に行ってきました
 date: 2025-09-18
-authors: [dummy]
+authors: [Fuka Takita]
 ---
 
 4年生の呼びかけで研究室で大阪万博に行ってきました。
