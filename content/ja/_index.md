@@ -60,7 +60,7 @@ sections:
       title: Latest News
       subtitle:
       text:
-      count: 2
+      count: 3
       filters:
         author: ''
         category: ''
