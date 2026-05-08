@@ -47,15 +47,18 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:kunieda@sci.u-hyogo.ac.jp'
-  - icon: x-twitter
-    icon_pack: fab
-    link: https://x.com/kuniedat
+  - icon: pubmed
+    icon_pack: ai
+    link: https://pubmed.ncbi.nlm.nih.gov/?term=Takekazu+Kunieda&sort=date
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.jp/citations?user=fgbwU-IAAAAJ
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Takekazu-Kunieda
+  - icon: x-twitter
+    icon_pack: fab
+    link: https://x.com/kuniedat
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -75,4 +78,4 @@ user_groups:
 ---
 
 <strong>Takekazu Kunieda</strong> is a Professor of Extreme Biology at the University of Hyogo, Japan. He leads the Biological Signaling Lab, which explores the molecular mechanisms of extreme resilience in <strong>tardigrades and rotifers</strong>.<br><br> His work seeks to bridge these natural survival strategies with the <strong>synthesis of artificial life</strong>, ultimately aiming to illuminate <strong>the fundamental boundary between inanimate matter and living systems</strong>.
-
+<br><br>

@@ -14,9 +14,8 @@ sections:
         <div>
         <strong>教授　國枝武和</strong><br>
         兵庫県立大学 理学研究科 生命科学専攻<br>
-        生体情報学II分野<br>
-        Email: <span style="color:blue;">kunieda [at] sci.u-hyogo.ac.jp</span><br>
-        （メールアドレスの at は @ に変換してください）
+        生体情報学II分野<br><br>
+        📧 Email: <a href="mailto:kunieda@sci.u-hyogo.ac.jp">kunieda [at] sci.u-hyogo.ac.jp</a><br>
         </div>
         </div>
         <br>
