@@ -46,13 +46,13 @@ ja:
       time_format: '15:04'
       address_format: ja-jp
   contentDir: content/ja
-  title: 國枝研（生体情報学II）
+  title: 國枝研究室（生体情報学II）
   menu:
     main:
     - name: News
       url: news
       weight: 10
-    - name: 研究内容
+    - name: 研究
       url: research
       identifier: research
       weight: 20
