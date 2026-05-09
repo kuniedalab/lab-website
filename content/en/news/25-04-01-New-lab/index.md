@@ -1,6 +1,7 @@
 ---
 title: Dr. Takekazu Kunieda Appointed as Professor of Biology
 date: 2025-04-01
+Authors: [Takekazu Kunieda]
 ---
 
 We are pleased to announce that Dr. Takekazu Kunieda has been appointed as Professor at the Laboratory of Biological Signaling, Graduate School of Science, University of Hyogo, effective April 1, 2025. Dr. Kunieda is launching a new research initiative focusing on Extreme Biology.

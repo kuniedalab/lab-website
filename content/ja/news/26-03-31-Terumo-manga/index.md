@@ -1,9 +1,7 @@
 ---
 title: 生命科学DOKIDOKI研究室にクマムシ研究のマンガと記事を掲載いただきました
 date: 2026-03-31
-authors: []
-featured:
-  image: "https://www.terumozaidan.or.jp/labo/manga/28/images/page1.png"
+Authors: [Takekazu Kunieda]
 ---
 
 テルモ生命科学振興財団の<a href="https://www.terumozaidan.or.jp/labo/manga/28/index.html">生命科学DOKIDOKI研究室</a>に、クマムシ研究をマンガでとりあげていただきました。<br>
