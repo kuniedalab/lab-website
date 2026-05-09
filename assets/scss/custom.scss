@@ -2,6 +2,14 @@
   display: none !important;
 }
 
+.portrait-title h2.undergrad-name {
+  color: #1565c0;
+}
+
+.dark .portrait-title h2.undergrad-name {
+  color: #bbdefb;
+}
+
 .hero-title {
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.2;
