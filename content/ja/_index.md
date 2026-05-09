@@ -24,7 +24,14 @@ sections:
       text: |
         <h2 style="font-style: italic; ">ー 極限耐性の分子メカニズム ー</h2>
         <br>
-        クマムシやワムシといった極限環境耐性生物を対象に、完全乾燥にも耐える仕組みを分子レベルで解き明かしています。さらに、その知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保護へ応用展開しています。
+        クマムシやワムシといった極限環境耐性生物を対象に、完全乾燥にも耐える仕組みを分子レベルで解き明かしています。さらに、その知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保護へ応用展開しています。<br><br><br>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
+          {{< cta cta_link="./tardigrade/" cta_text="クマムシとは？ →" >}}
+          {{< cta cta_link="./tolerance/" cta_text="耐性のメカニズム →" >}}
+          {{< cta cta_link="./rotifer/" cta_text="ワムシとは？ →" >}}
+          {{< cta cta_link="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" cta_text="細胞周期 →" >}}
+        </div>
+
 #        完全乾燥に耐えるクマムシやワムシなどの極限環境耐性生物を対象に、新規耐性因子や独自の耐性メカニズムの解明に取り組んでいます。さらに、得られた知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保護へ応用展開しています。
     design:
       background:
@@ -41,17 +48,17 @@ sections:
   - block: markdown
     content:
       text: |
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
+        <!-- <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
           {{< cta cta_link="./tardigrade/" cta_text="クマムシとは？ →" >}}
           {{< cta cta_link="./tolerance/" cta_text="クマムシの耐性メカニズム →" >}}
           {{< cta cta_link="./rotifer/" cta_text="ワムシとは？ →" >}}
           {{< cta cta_link="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" cta_text="細胞周期 →" >}}
-        </div>
+        </div> -->
         🚚❗國枝研（くまむし研究グループ）は2025年4月に兵庫県立大学理学研究科に移動しました。<br>
     design:
       # 上下左右の余白を最小限にする [上, 右, 下, 左]
       spacing:
-        padding: ["10px", "0", "10px", "0"]
+        padding: ["20px", "0", "50px", "0"]
       # カラムを1にすると、タイトル分のスペースが消えます
       columns: "1"
       
@@ -74,7 +81,7 @@ sections:
       view: card
       columns: '1'
       spacing:
-        padding: ["30px", "0", "10px", "0"]
+        padding: ["20px", "0", "50px", "0"]
   
 #  - block: markdown
 #    content:
@@ -109,7 +116,7 @@ sections:
       view: citation
       columns: '1'
       spacing:
-        padding: ["30px", "0", "10px", "0"]
+        padding: ["20px", "0", "50px", "0"]
 
   - block: markdown
     content:
@@ -120,5 +127,5 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ["10px", "0", "10px", "0"]
+        padding: ["20px", "0", "10px", "0"]
 ---
