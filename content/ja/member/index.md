@@ -28,7 +28,7 @@ sections:
 
   - block: markdown
     content:
-      title: 学部学生
+      title: 学部生
       text: |-
         <div class="row justify-content-center people-widget">
           <div class="col-12 col-sm-auto people-person">
