@@ -44,14 +44,22 @@ sections:
     content:
       title: クマムシの耐性メカニズムの研究
       text: |
+        <video width="640" height="360" muted autoplay loop playsinline preload="true">
+          <source src="2016_Rv_injection_Saigo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <br>
         <div class="faq">
           <details name="tolerance" open>
-            <summary>ヨコヅナクマムシのゲノム解読</summary>
-            <p>クマムシ類は体長がおおむね1mm未満の微小な動物で、４対の脚を持ちます。これまでに約1,500種が報告されており、通常の市街地のほか、深海、高山、極地まで幅広く生息しています。ゆっくり歩くことから緩歩動物と呼ばれ、分類上独自のグループを形成しています。近縁な動物群としては、節足動物（昆虫やエビ・カニなど）や有爪動物（カギムシ）があげられます。</p>
+            <summary>ヨコヅナクマムシのゲノム解読 ー 独自の遺伝子が沢山ある！</summary>
+            <img src="tardigrade.jpg" alt="クマムシ" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
+            <p>クマムシ類の中でも急速な乾燥に耐え、特に高い極限環境耐性を示すヨコヅナクマムシ（<span style="font-style: italic;">Ramazzottius varieornatus</span>, YOKOZUNA-1 strain）について遺伝研と共同でゲノムを解読しました。ゲノムサイズは 55Mb と小さく、ショウジョウバエの1/3、ヒトの1/50未満でした。15,000〜20,000遺伝子を持つと考えられ、およそ半分強が他の動物と共通しており、既知のストレス応答遺伝子（抗酸化や修復に関わる遺伝子）が増加していました。先祖以外に由来すると考えられる水平伝播遺伝子は2%未満と特筆するほど多くはありませんでした。全遺伝子の約40%が他の生物には見られないクマムシ固有のもので、タンパク質に注目した解析から発見された耐性タンパク質（下記）はこれら固有の遺伝子にコードされているものが多く見つかっており、独自の遺伝子が耐性に重要な役割を果たしていると考えられています。</p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">放射線から DNA を守る Dsup タンパク質</summary>
-            <img src="tardigrade.jpg" alt="クマムシ" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;"><p>陸生クマムシの多くは乾燥耐性を持ち、周囲が乾燥すると脱水して縮まり乾眠と言われる状態になります。この状態では水含量は数％にまで低下しており、生命活動は見られません。驚いたことに死んだわけではなく、水を与えると速やかに活動状態に復帰します。乾眠状態のクマムシは様々な極限的な環境に曝露した後も、給水により生命活動を再開することから、マスメディア等では最強動物などと言われることもあります。これは、他の動物が耐えられないような厳しい環境でも生き残る事ができるという意味で最強の部類に入るということで、他の動物と戦って勝てるということではありません。また、こうした耐性はすべてのクマムシが持つわけではありません。</p>
+            <img src="tardigrade.jpg" alt="クマムシ" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
+            <p>高線量の放射線や完全乾燥は DNA に二重鎖切断を始めとする重篤な障害を発生させます。こうしたストレスに耐性を示すヨコヅナクマムシは DNA を正常に保つ機能が高いと推定され、DNA に結合しているタンパク質の１つとして Dsup (Damage suppressor; ダメージを抑制するもの）と名付けたタンパク質を分離同定しました。Dsup はクマムシ以外には見つからないタンパク質でしたが、Dsup 遺伝子を組み込んだヒト培養細胞は、X 線によるDNA障害が約40%低減し、通常の細胞が死ぬような線量を照射したあとも一部の細胞は生き残り、増殖することがわかりました。<br>
+            　世界中の研究室が様々な生物に Dsup を導入した結果、ショウジョウバエや酵母、稲、タバコといった生物でも DNA の保護効果を示すことが報告されています。</p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">ストレスに応答して線維化して細胞を守る CAHS タンパク質</summary>
@@ -63,8 +71,9 @@ sections:
             <p>クマムシはいろんな場所に生息していますが、乾眠能力を持つものを採取するのであれば、コンクリート壁や路上に生えている乾いたコケから採るのが成績良好です。　住みやすそうな湿ったところよりも、頻繁に乾燥する厳しい環境の方がこうしたクマムシはむしろ生き残りやすいようです。良く乾いたコケを採取して水を加えて数時間から一晩放置すると、乾眠していたクマムシが動き出します。</p>
           </details>
           <details name="tolerance">
-            <summary>同定したクマムシ固有の耐性タンパク質の配布</summary>
-            <p>・<a href="https://www.addgene.org/Takekazu_Kunieda/" target="_blank">Addgene: Kunieda Lab</a><br>
+            <summary>発見したクマムシ固有の耐性遺伝子の配布</summary>
+            <p>私たちが発見したクマムシ固有の耐性遺伝子などについては下記の配布機関から入手することができます（原則として研究機関に限ります）。<br>
+            ・<a href="https://www.addgene.org/Takekazu_Kunieda/" target="_blank">Addgene: Kunieda Lab</a><br>
             ・<a href="https://knowledge.brc.riken.jp/xsearch/catalog/list?__lang__=ja&query=Takekazu+Kunieda" target="_blank">理研BRC: Takekazu Kunieda</a><br>
             </p>
           </details>
