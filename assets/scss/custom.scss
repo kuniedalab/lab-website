@@ -7,6 +7,30 @@
   display: none !important;
 }
 
+// 1. 日本語フォントを最優先にし、行間を少し詰める
+body {
+  counter-reset: pub-counter 0; // 論文番号のカウンターをリセット
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.6;     // デフォルト(1.8〜2.0)より少し詰める
+  letter-spacing: -0.02em; // わずかに字間を広げて高級感を出す（逆に詰めたいなら -0.01em）
+}
+
+// 2. 見出し（Research, News等）をシャープにする
+h1, h2, h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -0.02em; // 見出しは少し詰めると「力強く」見えます
+  margin-top: 0.5rem;
+}
+
+// 3. ナビゲーションメニューをシュッとさせる
+.navbar-nav .nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase; // 英字を大文字にするとカッコいい（お好みで）
+}
+
+
 .portrait-title h2.undergrad-name {
   color: #1565c0;
 }
@@ -20,16 +44,6 @@
   line-height: 1.2;
 }
 
-.br-pc {
-  display: none;
-}
-/*
-@media (min-width: 992px) and (max-width: 1200px) {
-  .br-pc {
-    display: inline;
-  }
-}*/
-
 /* 文字をくっきりさせる */
 .hero-title, .hero-lead {
   text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
@@ -42,26 +56,74 @@
 }
 */
 
-/* ガラス風のアウトラインボタン */
-.btn-glass {
-  padding-left: 0.5rem !important;
-  padding-right: 0.5rem !important;
-  background-color: rgba(255, 255, 255, 0.1) !important; /* 10%だけ白 */
-  backdrop-filter: blur(10px); /* 背景を少しぼかす（高級感が出ます） */
-  border: 3px solid rgba(255, 255, 255, 0.6) !important;
-  color: rgb(32, 221, 152) !important;
-  
+/* ==========================================================================
+   1. ボタン全体の共通設定 (全てのカスタムボタンに適用)
+   ========================================================================== */
+.btn-glass, .btn-blue-color, .btn-green-color {
+  margin: 0.5rem !important;      /* ボタン同士の隙間 */
+  padding: 0.6rem 1.2rem !important; /* 内側の余白を少し広げて押しやすく */
+  backdrop-filter: blur(10px);    /* 背景のぼかし効果 */
+  border-radius: 50px;             /* 角の丸み（好みで50pxにすると丸くなります） */
+  font-weight: bold !important;
+  transition: all 0.3s ease;      /* ホバー時の動きを滑らかに */
+  display: inline-flex;           /* アイコンと文字を綺麗に並べる */
+  align-items: center;
+  white-space: nowrap;            /* 勝手に改行させない */
+}
+
+/* ==========================================================================
+   2. 個別スタイル：メインボタン（色付き・目立たせたいもの）
+   ========================================================================== */
+.btn-green-color {
+  background-color: rgba(32, 221, 152, 0.4) !important; /* 透過した青 */
+  border: 2px solid rgba(32, 221, 152, 0.8) !important; /* 枠線を少し太く */
+  color: #ffffff !important;
+
+  i { color: #ffffff !important; } /* アイコンも白に固定 */
+
   &:hover {
-    background-color: rgba(255, 255, 255, 0.2) !important;
-    border-color: #fff !important;
+    background-color: rgba(32, 221, 152, 0.7) !important; /* ホバーで濃く */
+    transform: translateY(-2px);                         /* 少し浮く演出 */
+  }
+}
+.btn-blue-color {
+  background-color: rgba(0, 123, 255, 0.4) !important; /* 透過した青 */
+  border: 2px solid rgba(0, 123, 255, 0.8) !important; /* 枠線を少し太く */
+  color: #ffffff !important;
+
+  i { color: #ffffff !important; } /* アイコンも白に固定 */
+
+  &:hover {
+    background-color: rgba(0, 123, 255, 0.7) !important; /* ホバーで濃く */
+    transform: translateY(-2px);                         /* 少し浮く演出 */
   }
 }
 
-.btn-primary { /* お使いのボタンのクラス名に合わせてください */
-  color: #ffffff !important;
-  /* 背景色も調整が必要な場合は以下も追加 */
-  /* background-color: #333333; */
+// 0, 123, 255
+/* ==========================================================================
+   3. 個別スタイル：サブボタン（白枠ガラス風・控えめなもの）
+   ========================================================================== */
+.btn-glass {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid rgba(255, 255, 255, 0.6) !important;
+  color: #ffffff !important; /* 文字は白が一番ガラス風に馴染みます */
+
+  /* 特定の色をアイコンにつけたい場合はここで調整（例：以前の緑） */
+  i { color: rgb(255, 255, 255) !important; } 
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+  }
 }
+
+/* ==========================================================================
+   4. アイコンの色を個別に指定したい場合 (オプション)
+   ========================================================================== */
+/* クマムシボタンのアイコンだけ色を変える、といった使い方ができます */
+.icon-green { color: rgb(32, 221, 152) !important; }
+.icon-pink  { color: #ff69b4 !important; }
 
 .hilite-summary {
   color: DarkGoldenRod;
@@ -222,25 +284,27 @@ html[lang="en"] .i18n-dropdown .nav-link::before {
 }
 
 
-// 1. 日本語フォントを最優先にし、行間を少し詰める
-body {
-  counter-reset: pub-counter 0; // 論文番号のカウンターをリセット
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  line-height: 1.6;     // デフォルト(1.8〜2.0)より少し詰める
-  letter-spacing: -0.02em; // わずかに字間を広げて高級感を出す（逆に詰めたいなら -0.01em）
+/* 1. Heroウィジェット内の横幅制限を最大まで開放する */
+.wg-hero .container {
+  max-width: 95% !important; /* ほぼ画面端まで広げる */
 }
 
-// 2. 見出し（Research, News等）をシャープにする
-h1, h2, h3 {
-  font-size: 1.5rem;
-  font-weight: 900;
-  letter-spacing: -0.02em; // 見出しは少し詰めると「力強く」見えます
-  margin-top: 0.5rem;
+/* 2. グリッド（列）の制限を解除し、コンテンツを左端から開始させる */
+.wg-hero .row {
+  display: block !important; /* グリッドではなく通常のブロックとして扱う */
+  width: 100% !important;
 }
 
-// 3. ナビゲーションメニューをシュッとさせる
-.navbar-nav .nav-link {
-  font-size: 0.9rem;
-  font-weight: 500;
-  text-transform: uppercase; // 英字を大文字にするとカッコいい（お好みで）
+/* 3. ボタンを囲む親要素を全幅にする */
+.btn-toolbar {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+  justify-content: flex-start !important; /* 左寄せ */
+}
+
+/* 4. （おまけ）もしボタンがまだ狭い範囲で折り返される場合 */
+.wg-hero .col-md-6, .wg-hero .col-12 {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
 }

@@ -18,28 +18,29 @@ sections:
 #        </div>
   - block: hero
     content:
- #     title: 生き抜くための分子ロジックを読み解く
-      title: "生き抜くための分子ロジックを読み解く<span style='display: block; font-size: 0.7em; opacity: 0.7; margin-top: -4px;'>Decoding molecular logic of survival</span>"
+      title: "生き抜くための分子ロジックを読み解く<span style='display: block; font-size: 0.7em; margin-top: -0.2em;'>ー 極限耐性の分子メカニズム ー</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.8em; opacity: 0.7; margin-top: 0.2em;'>Decoding molecular logic of survival</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.6em; opacity: 0.7; margin-top: -0.3em;'>Mechanisms of Extreme Tolerance</span>"
+      
+      #"生き抜くための分子ロジックを読み解く<span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.8em; opacity: 0.7; margin-top: -0.35em;'>Decoding molecular logic of survival</span><span style='display: block; font-size: 0.7em; margin-top: 0.2em;'>ー 極限耐性の分子メカニズム ー</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.6em; opacity: 0.7; margin-top: -0.3em;'>Mechanisms of Extreme Tolerance</span>"
+      
       #  filename: welcome.jpg
       text: |
-        <h2 style="font-style: italic; margin-top: 20px;">ー 極限耐性の分子メカニズム ー<span style='display: block; font-size: 0.8em; opacity: 0.7; margin-top: -4px;'>Mechanisms of Extreme Tolerance</span></h2>
         <br>
         クマムシやワムシといった極限環境耐性生物を対象に、完全乾燥にも耐える仕組みを分子レベルで解き明かしています。さらに、その知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保護へ応用展開しています。<br><br><br>
 
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
-        <a href="./tardigrade/" class="btn btn-outline-primary btn-lg btn-glass">
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: flex-start; margin-bottom: -20px; line-height: 1;">
+        <a href="./tardigrade/" class="btn btn-green-color btn-lg">
           <i class="fas fa-microscope mr-1"></i> クマムシとは？
         </a>
 
-        <a href="./tolerance/" class="btn btn-outline-primary btn-lg btn-glass">
+        <a href="./tolerance/" class="btn btn-green-color btn-lg">
           <i class="fas fa-dna mr-1"></i> 耐性のメカニズム
         </a>
 
-        <a href="./rotifer/" class="btn btn-primary btn-lg btn-glass">
+        <a href="./rotifer/" class="btn btn-lg btn-green-color">
           <i class="fas fa-bug mr-1"></i> ワムシとは？
         </a>
 
-        <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-primary btn-lg btn-glass">
+        <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-lg btn-green-color">
           <i class="fas fa-bug mr-1"></i> 細胞周期
         </a>
         </div>
