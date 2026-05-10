@@ -1,10 +1,45 @@
 ---
-title: Research
+title: Tardigrade
 date: 2022-10-24
 
 type: landing
 
 sections:
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        <div style="display: flex; gap: 0px; flex-wrap: wrap; justify-content: center; line-height: 1;">
+        <a href="../tardigrade/" class="btn btn-glass btn-lg">
+          <i class="fas fa-microscope mr-1"></i> クマムシとは？
+        </a>
+        <a href="../tolerance/" class="btn btn-green-color btn-lg">
+          <i class="fas fa-shield-alt mr-1"></i> 耐性のメカニズム
+        </a>
+        <a href="../rotifer/" class="btn btn-lg btn-green-color">
+          <i class="fas fa-spinner mr-1"></i> ワムシとは？
+        </a>
+        <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-lg btn-green-color">
+          <i class="fas fa-sync mr-1"></i> 細胞周期
+        </a>
+        </div>
+      #  {{% cta cta_link="./member/" cta_text="Meet the team →" %}}
+    design:
+      columns: '1'
+      spacing:
+        padding: ["10px", "0", "10px", "0"]
+      background:
+        image:
+          filename: kumanui2.jpg
+          filters:
+            brightness: 0.7
+          position: left
+          color: '#333'
+          parallax: false
+          size: cover
+        text_color_light: true
+  
   - block: markdown
     content:
       title: クマムシとは？
@@ -46,6 +81,8 @@ sections:
 #        align: center
     design:
       columns: "1"
+      spacing:
+        padding: ["50px", "5%", "30px", "5%"]
 #      # Slide height is automatic unless you force a specific height (e.g. '400px')
 #      slide_height: ''
 #      is_fullscreen: true
@@ -53,38 +90,4 @@ sections:
 #      loop: false
       # Duration of transition between slides (in ms)
 #      interval: 2000
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        <div style="display: flex; gap: 0px; flex-wrap: wrap; justify-content: center; line-height: 1;">
-        <a href="../tardigrade/" class="btn btn-glass btn-lg">
-          <i class="fas fa-microscope mr-1"></i> クマムシとは？
-        </a>
-        <a href="../tolerance/" class="btn btn-green-color btn-lg">
-          <i class="fas fa-shield-alt mr-1"></i> 耐性のメカニズム
-        </a>
-        <a href="../rotifer/" class="btn btn-lg btn-green-color">
-          <i class="fas fa-spinner mr-1"></i> ワムシとは？
-        </a>
-        <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-lg btn-green-color">
-          <i class="fas fa-sync mr-1"></i> 細胞周期
-        </a>
-        </div>
-      #  {{% cta cta_link="./member/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
-      spacing:
-        padding: ["20px", "0", "20px", "0"]
-      background:
-        image:
-          filename: kumanui2.jpg
-          filters:
-            brightness: 0.7
-          position: left
-          color: '#333'
-          parallax: false
-          size: cover
-        text_color_light: true
 ---
