@@ -20,9 +20,9 @@ en:
       - name: News
         url: news
         weight: 10
-      - name: Research
-        url: research
-        weight: 20
+#      - name: Research
+#        url: research
+#        weight: 20
       - name: Publication
         url: publication
         weight: 30
@@ -66,10 +66,15 @@ ja:
       identifier: tolerance
       url: tolerance
       weight: 20
-    - name: ワムシの耐性
+    - name: ワムシの特徴
       parent: research
       identifier: rotifer
       url: rotifer
+      weight: 30
+    - name: 細胞周期
+      parent: research
+      identifier: cellcycle
+      url: https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html
       weight: 30
     - name: 業績
       url: publication
