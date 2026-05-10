@@ -5,27 +5,16 @@ date: 2022-10-24
 type: landing
 
 sections:
-#  - block: markdown
-#    content:
-#      text: |-
-#        <div style="position: relative; width: 100%;">
-#          <img src="/media/welcome.jpg" style="width: 100%; display: block;">
-#          <div style="position: absolute; top: 0; left: 0; width: 100%; height: 30%; background: rgba(0,0,0,0.4);"></div>
-#          <div style="position: absolute; top: 5%; left: 5%; text-align: left; color: white;">
-#            <h1 style="font-size: clamp(1.2rem, 4.5vw, 3rem); font-weight: bold; color: white;">生き抜くための分子ロジックを読み解く</h1>
-#            <p style="font-size: clamp(0.9rem, 3.5vw, 2rem); font-weight: bold;">〜 極限耐性の分子メカニズム 〜</p>
-#          </div>
-#        </div>
   - block: hero
     content:
-      title: Decoding Molecular Logic of Survival
+      title: "<span style='letter-spacing: 0em; font-weight: bold;'>Decoding Molecular Logic of Survival</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.7em; margin-top: -0.25em;'>- Mechanisms of Extreme Tolerance -</span>"
       #image:
       #  filename: welcome.jpg
+      #  <h2 style="font-style: italic; ">- Mechanisms of Extreme Tolerance -</h2>
       text: |
-        <h2 style="font-style: italic; ">- Mechanisms of Extreme Tolerance -</h2>
         <br>
-        We study extremotolerant organisms, including tardigrades, to elucidate the molecular mechanisms that enable survival under extreme stresses. We further apply these insights to enhance stress tolerance in other organisms, including human cells, and to protect biomolecules from drying.<br><br>
-#        完全乾燥に耐えるクマムシやワムシなどの極限環境耐性生物を対象に、新規耐性因子や独自の耐性メカニズムの解明に取り組んでいます。さらに、得られた知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保護へ応用展開しています。
+        We study extremotolerant organisms, including tardigrades, to elucidate the molecular mechanisms that enable survival under extreme stresses. We further apply these insights to enhance stress tolerance in other organisms, including human cells, and to protect biomolecules from drying.<br>
+
     design:
       background:
         image:
