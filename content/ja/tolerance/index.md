@@ -64,13 +64,17 @@ sections:
           </details>
           <details name="tolerance">
             <summary>同定したクマムシ固有の耐性タンパク質の配布</summary>
-            <p>クマムシの示す耐性能力は、生息環境から考えると明らかに過剰であり、生き残るために必要だったとは考えられません。こうした過剰な耐性能力は、頻繁に乾燥する環境に住み、乾燥耐性を持つクマムシで観察されます。乾燥に耐えるために獲得した様々な保護や修復のしくみが、副産物として過剰な耐性能力を生んだのかもしれません。<br>
-            　乾燥耐性の仕組みとしては、昔からトレハロースという糖がたくさん蓄積して乾燥から保護しているのだと考えられてきました。しかしながら、クマムシではトレハロースを顕著に蓄積しない種が多く、このような耐性を示すメカニズムについて、最近の研究では<a href="../tolerance/">クマムシ固有のタンパク質が重要な役割を果たしているらしいことがわかってきました</a>。</p>
+            <p>・<a href="https://www.addgene.org/Takekazu_Kunieda/" target="_blank">Addgene: Kunieda Lab</a><br>
+            ・<a href="https://knowledge.brc.riken.jp/xsearch/catalog/list?__lang__=ja&query=Takekazu+Kunieda" target="_blank">理研BRC: Takekazu Kunieda</a><br>
+            </p>
           </details>
           <details name="tolerance">
             <summary>関連動画</summary>
-            <p>クマムシの示す耐性能力は、生息環境から考えると明らかに過剰であり、生き残るために必要だったとは考えられません。こうした過剰な耐性能力は、頻繁に乾燥する環境に住み、乾燥耐性を持つクマムシで観察されます。乾燥に耐えるために獲得した様々な保護や修復のしくみが、副産物として過剰な耐性能力を生んだのかもしれません。<br>
-            　乾燥耐性の仕組みとしては、昔からトレハロースという糖がたくさん蓄積して乾燥から保護しているのだと考えられてきました。しかしながら、クマムシではトレハロースを顕著に蓄積しない種が多く、このような耐性を示すメカニズムについて、最近の研究では<a href="../tolerance/">クマムシ固有のタンパク質が重要な役割を果たしているらしいことがわかってきました</a>。</p>
+            <p>・2016 : <a href="https://www.youtube.com/watch?v=Rg3n7_fvMp0" target="_blank">極限状態に耐える動物クマムシの秘密を探る - 東京大学オープンキャンパス</a><br>
+            ・2016 : <a href="https://www.youtube.com/watch?v=A2hM_W-lP5c" target="_blank">クマムシの強さの謎を解く - UTokyo Research プレスリリース</a><br>
+            ・2016 : <a href="https://www.youtube.com/watch?v=UD0R37eGOec" target="_blank">Demystifying the resilience of water bears - UTokyo Research 英文リリース</a><br>
+            ・2020 : <a href="https://www.youtube.com/watch?v=ERKDgQ1Cykw" target="_blank">宇宙も平気なクマムシ - JAXA</a><br>
+            ・2024 : <a href="https://www.youtube.com/watch?v=WRmGIK-mkQ4" target="_blank">最強生物クマムシ - いまからサイエンス #60予告編 (BSテレ東)</a><br></p>
           </details>
         </div>
 #        align: center
