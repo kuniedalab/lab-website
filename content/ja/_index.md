@@ -27,19 +27,19 @@ sections:
         クマムシやワムシといった極限環境耐性生物を対象に、完全乾燥にも耐える仕組みを分子レベルで解き明かしています。さらに、その知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保護へ応用展開しています。<br><br><br>
 
         <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
-        <a href="./tardigrade/" class="btn btn-primary btn-lg btn-glass">
+        <a href="./tardigrade/" class="btn btn-outline-primary btn-lg btn-glass">
           <i class="fas fa-microscope mr-1"></i> クマムシとは？
         </a>
 
-        <a href="./tolerance/" class="btn btn-primary btn-lg btn-glass">
+        <a href="./tolerance/" class="btn btn-outline-primary btn-lg btn-glass">
           <i class="fas fa-dna mr-1"></i> 耐性のメカニズム
         </a>
 
-        <a href="./rotifer/" class="btn btn-outline-primary btn-lg btn-glass">
+        <a href="./rotifer/" class="btn btn-primary btn-lg btn-glass">
           <i class="fas fa-bug mr-1"></i> ワムシとは？
         </a>
 
-        <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-outline-primary btn-lg btn-glass">
+        <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-primary btn-lg btn-glass">
           <i class="fas fa-bug mr-1"></i> 細胞周期
         </a>
         </div>
