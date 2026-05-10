@@ -7,12 +7,9 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: クマムシとは？
+      title: クマムシの耐性メカニズムの研究
       text: |
-        <video width="640" height="360" muted autoplay loop playsinline preload="true">
-          <source src="dry-and-recover.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+
         <br>
         <div class="faq">
           <details name="tardigrade" open>
@@ -59,10 +56,10 @@ sections:
       subtitle:
       text: |
         <div style="display: flex; gap: 0px; flex-wrap: wrap; justify-content: center; line-height: 1;">
-        <a href="../tardigrade/" class="btn btn-glass btn-lg">
+        <a href="../tardigrade/" class="btn btn-green-color btn-lg">
           <i class="fas fa-microscope mr-1"></i> クマムシとは？
         </a>
-        <a href="../tolerance/" class="btn btn-green-color btn-lg">
+        <a href="../tolerance/" class="btn btn-glass btn-lg">
           <i class="fas fa-shield-alt mr-1"></i> 耐性のメカニズム
         </a>
         <a href="../rotifer/" class="btn btn-lg btn-green-color">
