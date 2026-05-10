@@ -27,15 +27,15 @@ interests:
 
 education:
 #  courses:
-#    - course: #PhD in Pharmaceutical Science
-#      institution: #University of Tokyo
-#      year: #1998
-#    - course: #MPharm in Pharmaceutical Science
-#      institution: #University of Tokyo
-#      year: #1995
+#    - course: PhD in Pharmaceutical Science
+#      institution: University of Tokyo
+#      year: 1998
+#    - course: MPharm in Pharmaceutical Science
+#      institution: University of Tokyo
+#      year: 1995
 #    - course: #BPharm in Pharmaceutical Science
-#      institution: #University of Tokyo
-#      year: #1993
+#      institution: University of Tokyo
+#      year: 1993
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

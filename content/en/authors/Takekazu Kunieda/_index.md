@@ -29,13 +29,13 @@ interests:
 
 education:
   courses:
-    - course: PhD in Pharmaceutical Science
+    - course: PhD in Pharmaceutical Sciences
       institution: University of Tokyo
       year: 1998
-    - course: MPharm in Pharmaceutical Science
+    - course: Master of Pharmaceutical Sciences
       institution: University of Tokyo
       year: 1995
-    - course: BPharm in Pharmaceutical Science
+    - course: Bachelor of Pharmaceutical Sciences
       institution: University of Tokyo
       year: 1993
 
@@ -47,18 +47,18 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:kunieda@sci.u-hyogo.ac.jp'
-  - icon: pubmed
-    icon_pack: ai
-    link: https://pubmed.ncbi.nlm.nih.gov/?term=Takekazu+Kunieda&sort=date
+  - icon: x-twitter
+    icon_pack: fab
+    link: https://x.com/kuniedat
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.jp/citations?user=fgbwU-IAAAAJ
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Takekazu-Kunieda
-  - icon: x-twitter
-    icon_pack: fab
-    link: https://x.com/kuniedat
+  - icon: pubmed
+    icon_pack: ai
+    link: https://pubmed.ncbi.nlm.nih.gov/?term=Takekazu+Kunieda&sort=date
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

@@ -18,19 +18,39 @@ sections:
 #        </div>
   - block: hero
     content:
-      title: 生き抜くための分子ロジックを<span class="br-pc"><br></span>読み解く
-      #image:
+ #     title: 生き抜くための分子ロジックを読み解く
+      title: "生き抜くための分子ロジックを読み解く<span style='display: block; font-size: 0.7em; opacity: 0.7; margin-top: -4px;'>Decoding molecular logic of survival</span>"
       #  filename: welcome.jpg
       text: |
-        <h2 style="font-style: italic; ">ー 極限耐性の分子メカニズム ー</h2>
+        <h2 style="font-style: italic; margin-top: 20px;">ー 極限耐性の分子メカニズム ー<span style='display: block; font-size: 0.8em; opacity: 0.7; margin-top: -4px;'>Mechanisms of Extreme Tolerance</span></h2>
         <br>
         クマムシやワムシといった極限環境耐性生物を対象に、完全乾燥にも耐える仕組みを分子レベルで解き明かしています。さらに、その知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保護へ応用展開しています。<br><br><br>
+
         <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
-          {{< cta cta_link="./tardigrade/" cta_text="クマムシとは？ →" >}}
-          {{< cta cta_link="./tolerance/" cta_text="耐性のメカニズム →" >}}
-          {{< cta cta_link="./rotifer/" cta_text="ワムシとは？ →" >}}
-          {{< cta cta_link="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" cta_text="細胞周期 →" >}}
+        <a href="./tardigrade/" class="btn btn-primary btn-lg btn-glass">
+          <i class="fas fa-microscope mr-1"></i> クマムシとは？
+        </a>
+
+        <a href="./tolerance/" class="btn btn-primary btn-lg btn-glass">
+          <i class="fas fa-dna mr-1"></i> 耐性のメカニズム
+        </a>
+
+        <a href="./rotifer/" class="btn btn-outline-primary btn-lg btn-glass">
+          <i class="fas fa-bug mr-1"></i> ワムシとは？
+        </a>
+
+        <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-outline-primary btn-lg btn-glass">
+          <i class="fas fa-bug mr-1"></i> 細胞周期
+        </a>
         </div>
+        
+        <!--
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
+          {{< cta cta_link="./tardigrade/" cta_text="🔬クマムシとは？ →" icon="microscope" >}}
+          {{< cta cta_link="./tolerance/" cta_text="🧬耐性のメカニズム →" icon="dna" >}}
+          {{< cta cta_link="./rotifer/" cta_text="ワムシとは？ →" style="outline" >}}
+          {{< cta cta_link="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" cta_text="細胞周期 →" style="outline" >}}
+        </div> -->
 
 #        完全乾燥に耐えるクマムシやワムシなどの極限環境耐性生物を対象に、新規耐性因子や独自の耐性メカニズムの解明に取り組んでいます。さらに、得られた知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保護へ応用展開しています。
     design:
@@ -39,7 +59,7 @@ sections:
           filename: kumanui2.jpg
           filters:
             brightness: 0.5
-          position: center
+          position: left
           color: '#333'
           parallax: false
           size: cover
@@ -49,10 +69,10 @@ sections:
     content:
       text: |
         <!-- <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: -20px; line-height: 1;">
-          {{< cta cta_link="./tardigrade/" cta_text="クマムシとは？ →" >}}
-          {{< cta cta_link="./tolerance/" cta_text="クマムシの耐性メカニズム →" >}}
-          {{< cta cta_link="./rotifer/" cta_text="ワムシとは？ →" >}}
-          {{< cta cta_link="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" cta_text="細胞周期 →" >}}
+          {{< cta cta_link="./tardigrade/" cta_text="クマムシとは？ →" icon="microscope" >}}
+          {{< cta cta_link="./tolerance/" cta_text="クマムシの耐性メカニズム →" icon="dna"  >}}
+          {{< cta cta_link="./rotifer/" cta_text="ワムシとは？ →" style="outline" >}}
+          {{< cta cta_link="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" cta_text="細胞周期 →" style="outline" >}}
         </div> -->
         🚚❗國枝研（くまむし研究グループ）は2025年4月に兵庫県立大学理学研究科に移動しました。<br>
     design:
