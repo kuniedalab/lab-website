@@ -84,7 +84,33 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./member/" cta_text="Meet the team →" %}}
+        <div style="display: flex; gap: 0px; flex-wrap: wrap; justify-content: center; line-height: 1;">
+        <a href="./news/" class="btn btn-blue-color btn-lg">
+          <i class="fas fa-seedling mr-1"></i> News
+        </a>
+        <a href="./publication/" class="btn btn-blue-color btn-lg">
+          <i class="fas fa-file-alt mr-1"></i> Publications
+        </a>
+        <a href="./member/" class="btn btn-blue-color btn-lg">
+          <i class="fas fa-users mr-1"></i> Meet the team
+        </a>
+        <a href="./contact/" class="btn btn-blue-color btn-lg">
+          <i class="fas fa-paper-plane mr-1"></i> Contact the lab-head
+        </a>
+        </div>
+      #  {{% cta cta_link="./member/" cta_text="Meet the team →" %}}
     design:
       columns: '1'
+      spacing:
+        padding: ["20px", "0", "20px", "0"]
+      background:
+        image:
+          filename: kumanui2.jpg
+          filters:
+            brightness: 0.7
+          position: left
+          color: '#333'
+          parallax: false
+          size: cover
+        text_color_light: true
 ---

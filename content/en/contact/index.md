@@ -20,7 +20,7 @@ sections:
         </div>
         </div>
         <br>
-      email: kunieda [at] sci.u-hyogo.ac.jp
+      email: kunieda@sci.u-hyogo.ac.jp
       #phone: 888 888 88 88
       address:
         street: 3-2-1 Koto
