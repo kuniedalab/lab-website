@@ -52,19 +52,23 @@ sections:
         <div class="faq">
           <details name="tolerance" open>
             <summary>ヨコヅナクマムシのゲノム解読 ー 独自の遺伝子が沢山ある！</summary>
-            <img src="tardigrade.jpg" alt="クマムシ" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
+            <img src="yokozuna-genome-ja.jpg" alt="クマムシゲノム" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
             <p>クマムシ類の中でも急速な乾燥に耐え、特に高い極限環境耐性を示すヨコヅナクマムシ（<span style="font-style: italic;">Ramazzottius varieornatus</span>, YOKOZUNA-1 strain）について遺伝研と共同でゲノムを解読しました。ゲノムサイズは 55Mb と小さく、ショウジョウバエの1/3、ヒトの1/50未満でした。15,000〜20,000遺伝子を持つと考えられ、およそ半分強が他の動物と共通しており、既知のストレス応答遺伝子（抗酸化や修復に関わる遺伝子）が増加していました。先祖以外に由来すると考えられる水平伝播遺伝子は2%未満と特筆するほど多くはありませんでした。全遺伝子の約40%が他の生物には見られないクマムシ固有のもので、タンパク質に注目した解析から発見された耐性タンパク質（下記）はこれら固有の遺伝子にコードされているものが多く見つかっており、独自の遺伝子が耐性に重要な役割を果たしていると考えられています。</p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">放射線から DNA を守る Dsup タンパク質</summary>
-            <img src="tardigrade.jpg" alt="クマムシ" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
+            <img src="dsup-ja.jpg" alt="Dsup" style="width: 100%; max-width:900px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
             <p>高線量の放射線や完全乾燥は DNA に二重鎖切断を始めとする重篤な障害を発生させます。こうしたストレスに耐性を示すヨコヅナクマムシは DNA を正常に保つ機能が高いと推定され、DNA に結合しているタンパク質の１つとして Dsup (Damage suppressor; ダメージを抑制するもの）と名付けたタンパク質を分離同定しました。Dsup はクマムシ以外には見つからないタンパク質でしたが、Dsup 遺伝子を組み込んだヒト培養細胞は、X 線によるDNA障害が約40%低減し、通常の細胞が死ぬような線量を照射したあとも一部の細胞は生き残り、増殖することがわかりました。<br>
             　世界中の研究室が様々な生物に Dsup を導入した結果、ショウジョウバエや酵母、稲、タバコといった生物でも DNA の保護効果を示すことが報告されています。</p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">ストレスに応答して線維化して細胞を守る CAHS タンパク質</summary>
-            <p>超低温・超真空・放射線に耐性を持つことから、乾眠状態のクマムシなら宇宙空間に曝露しても耐えられるのではないかと指摘されてきました。この仮説を検証するため2007年秋にクマムシの宇宙曝露実験が行われました。<br>
-            　穴の空いた箱にクマムシを入れて宇宙空間（高度258 – 281 km）に10日間曝露しましたが、生存率や寿命、繁殖率について特に影響はありませんでした。宇宙空間に曝されて生存した初めての動物になります。一方、紫外線も照射される条件で曝露した場合には生存率は大幅に低下しました。岩石などにくっついて影に隠れるようにすれば宇宙旅行も可能かもしれませんね。</p>
+            <video width="504" height="504" muted autoplay loop playsinline preload="true">
+              <source src="deh-reh-ja-text.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <img src="cahs-ja.jpg" alt="Dsup" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
+            <p>CAHSタンパク質もクマムシにしかないタンパク質ファミリーで2012年に当研究室により初めて同定されました。加熱しても沈殿しない性質を持ち、多くのクマムシ種で乾燥時に発現が顕著に増加します。近年、濃度上昇に伴って自発的に繊維を形成することが私たちを含む複数の研究室によりほぼ同時期に報告されました。私たちは、CAHSタンパク質が細胞内で脱水ストレスに応答して多数の構造を形成し、細胞を物理的に強化してストレスから保護することを見出しました。この変化は可逆的でストレスがかかった時だけ、ちょうど鉄筋のような構造を細胞内に張り巡らせて守っているのではないかと考えています。</p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">ゲノム編集個体の作出法の開発（DIPA-CRISPR）</summary>
