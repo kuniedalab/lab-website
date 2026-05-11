@@ -18,7 +18,9 @@ sections:
 #        </div>
   - block: hero
     content:
-      title: "生き抜くための分子ロジックを読み解く<span style='display: block; font-size: 0.7em; margin-top: -0.2em;'>ー 極限耐性の分子メカニズム ー</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.8em; opacity: 0.8; margin-top: 0.2em;'>Decoding Molecular Logic of Survival</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.6em; opacity: 0.8; margin-top: -0.3em;'>- Mechanisms of Extreme Tolerance -</span>"
+      title: "生き抜くための分子ロジックを読み解く<span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.8em; opacity: 0.7; margin-top: -0.35em;'>Decoding molecular logic of survival</span><span style='display: block; font-size: 0.7em; margin-top: 0.5em;'>ー 極限耐性の分子メカニズム ー</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.6em; opacity: 0.7; margin-top: -0.3em;'>Mechanisms of Extreme Tolerance</span>"
+      
+      #"生き抜くための分子ロジックを読み解く<span style='display: block; font-size: 0.7em; margin-top: -0.2em;'>ー 極限耐性の分子メカニズム ー</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.8em; opacity: 0.8; margin-top: 0.2em;'>Decoding Molecular Logic of Survival</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.6em; opacity: 0.8; margin-top: -0.3em;'>- Mechanisms of Extreme Tolerance -</span>"
       
       #"生き抜くための分子ロジックを読み解く<span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.8em; opacity: 0.7; margin-top: -0.35em;'>Decoding molecular logic of survival</span><span style='display: block; font-size: 0.7em; margin-top: 0.2em;'>ー 極限耐性の分子メカニズム ー</span><span style='display: block; letter-spacing: 0em; font-weight: normal; font-size: 0.6em; opacity: 0.7; margin-top: -0.3em;'>Mechanisms of Extreme Tolerance</span>"
       

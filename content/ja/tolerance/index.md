@@ -21,7 +21,7 @@ sections:
           <i class="fas fa-spinner mr-1"></i> ワムシとは？
         </a>
         <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-lg btn-green-color">
-          <i class="fas fa-sync mr-1"></i> 細胞周期
+          <i class="fas fa-arrows-spin mr-1"></i> 細胞周期
         </a>
         </div>
       #  {{% cta cta_link="./member/" cta_text="Meet the team →" %}}
