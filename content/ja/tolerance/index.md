@@ -1,5 +1,5 @@
 ---
-title: Tolerance mechanisms
+title: 耐性メカニズム
 date: 2022-10-24
 
 type: landing
