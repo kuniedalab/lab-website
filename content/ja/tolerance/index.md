@@ -76,13 +76,13 @@ sections:
               Your browser does not support the video tag.
             </video>
             <img src="cahs-ja.jpg" alt="Dsup" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
-            <p>CAHSタンパク質もクマムシにしかないタンパク質ファミリーで2012年に当研究室により初めて同定されました。加熱しても沈殿しない性質を持ち、多くのクマムシ種で乾燥時に発現が顕著に増加します。近年、濃度上昇に伴って自発的に繊維を形成することが私たちを含む複数の研究室によりほぼ同時期に報告されました。私たちは、CAHSタンパク質が細胞内で脱水ストレスに応答して多数の構造を形成し、細胞を物理的に強化してストレスから保護することを見出しました。この変化は可逆的でストレスがかかった時だけ、ちょうど鉄筋のような構造を細胞内に張り巡らせて守っているのではないかと考えています。<a href="https://doi.org/10.1371/journal.pbio.3001780" target="_blank">(Tanaka A <span style="font-style: italic;">et al., PLOS Biol</span>, 2022)</a></p>
+            <p>CAHSタンパク質もクマムシにしかないタンパク質ファミリーで2012年に当研究室により初めて同定されました。加熱しても沈殿しない性質を持ち、多くのクマムシ種で乾燥時に発現が顕著に増加します。近年、濃度上昇に伴って自発的に繊維を形成することが私たちを含む複数の研究室によりほぼ同時期に報告されました。私たちは、CAHSタンパク質が細胞内で脱水ストレスに応答して多数の繊維構造を形成し、細胞を物理的に強化してストレスから保護することを見出しました。この変化は可逆的でストレスがかかった時だけ、ちょうど鉄筋のような構造を細胞内に張り巡らせて守っているのではないかと考えています。<a href="https://doi.org/10.1371/journal.pbio.3001780" target="_blank">(Tanaka A <span style="font-style: italic;">et al., PLOS Biol</span>, 2022)</a></p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">クマムシのゲノム編集技術を確立 ―耐性の謎に分子レベルで迫る―</summary>
             <img src="dipa-crispr-ja.jpg" alt="Dsup" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
-            <p>2024年、長年垂涎の的だったクマムシの個体レベルでの遺伝子改変技術を確立しました。雌親の腹腔へCas9 RNPを注入することで、次世代で効率的に編集個体を得ることが可能です（DIPA-CRISPR）。現在、ノックアウトだけでなく、ssODNを用いたノックインにも成功しています。<a href="https://doi.org/10.1371/journal.pgen.1011298" target="_blank">(Kondo <span style="font-style: italic;">et al., PLOS Genet</span>, 2024)</a></p>
-            <p>　興味深いことに、得られた個体は編集配列をホモで保持していました。これは単為生殖特有の特殊な減数分裂機構に起因すると推測され、生物学的にも極めてユニークな現象です。本技術により、クマムシの極限耐性を支える分子ロジックの解明が劇的に加速することが期待されます。</p>
+            <p>2024年、長年垂涎の的だったクマムシの個体レベルでの遺伝子改変技術を確立しました。雌親の腹腔へCas9 RNPを注入することで、次世代で効率的に編集個体を得ることが可能です（DIPA-CRISPR）。現在、ノックアウトだけでなく、ssODNを用いたノックインにも成功しています。興味深いことに、得られた個体は編集配列をホモで保持していました。これは単為生殖特有の特殊な減数分裂機構に起因すると推測され、生物学的にも極めてユニークな現象です。<a href="https://doi.org/10.1371/journal.pgen.1011298" target="_blank">(Kondo <span style="font-style: italic;">et al., PLOS Genet</span>, 2024)</a></p>
+            <p>　これまでに同定されている耐性遺伝子だけではクマムシと同じレベルの耐性能力を再現できていないことから、クマムシにはまだまだ未知の耐性遺伝子がたくさん眠っていると考えています。本技術により、クマムシの極限耐性を支える分子ロジックの解明が劇的に加速することが期待されます。</p>
           </details>
           <details name="tolerance">
             <summary>発見したクマムシ固有の耐性遺伝子の配布</summary>
