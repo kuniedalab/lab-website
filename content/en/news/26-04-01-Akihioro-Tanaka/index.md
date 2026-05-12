@@ -2,6 +2,8 @@
 title: Dr. Akihiro Tanaka Joins as Assistant Professor
 date: 2026-04-01
 authors: [Akihiro Tanaka]
+image:
+    focal_point: "Top"
 ---
 
 We are pleased to announce that Dr. Akihiro Tanaka has been appointed as Assistant Professor, effective April 1, 2026.
