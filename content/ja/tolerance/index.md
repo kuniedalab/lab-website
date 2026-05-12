@@ -53,7 +53,8 @@ sections:
           <details name="tolerance" open>
             <summary>ヨコヅナクマムシのゲノム解読 ー 独自の遺伝子が沢山ある！</summary>
             <img src="yokozuna-genome-ja.jpg" alt="クマムシゲノム" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
-            <p>クマムシ類の中でも急速な乾燥に耐え、特に高い極限環境耐性を示すヨコヅナクマムシ（<span style="font-style: italic;">Ramazzottius varieornatus</span>, YOKOZUNA-1 strain）について遺伝研と共同でゲノムを解読しました。ゲノムサイズは 55Mb と小さく、ショウジョウバエの1/3、ヒトの1/50未満でした。15,000〜20,000遺伝子を持つと考えられ、およそ半分強が他の動物と共通しており、既知のストレス応答遺伝子（抗酸化や修復に関わる遺伝子）が増加していました。先祖以外に由来すると考えられる水平伝播遺伝子は2%未満と特筆するほど多くはありませんでした。全遺伝子の約40%が他の生物には見られないクマムシ固有のもので、タンパク質に注目した解析から発見された耐性タンパク質（下記）はこれら固有の遺伝子にコードされているものが多く見つかっており、独自の遺伝子が耐性に重要な役割を果たしていると考えられています。<a href="https://doi.org/10.1038/ncomms12808" target="_blank">(Hashimoto <span style="font-style: italic;">et al., Nat Commun</span>, 2016)</a></p>
+            <p>クマムシ類の中でも急速な乾燥に耐え、特に高い極限環境耐性を示すヨコヅナクマムシ（<span style="font-style: italic;">Ramazzottius varieornatus</span>, YOKOZUNA-1 strain）について遺伝研と共同でゲノムを解読しました。ゲノムサイズは 55Mb と小さく、ショウジョウバエの1/3、ヒトの1/50未満でした。15,000〜20,000遺伝子を持つと考えられ、およそ半分強が他の動物と共通しており、既知のストレス応答遺伝子（抗酸化や修復に関わる遺伝子）が増加していました。先祖以外に由来すると考えられる水平伝播遺伝子は2%未満と特筆するほど多くはありませんでした。</p>
+            <p>　全遺伝子の約40%が他の生物には見られないクマムシ固有のもので、タンパク質に注目した解析から発見された耐性タンパク質（下記）はこれら固有の遺伝子にコードされているものが多く見つかっており、独自の遺伝子が耐性に重要な役割を果たしていると考えられています。<a href="https://doi.org/10.1038/ncomms12808" target="_blank">(Hashimoto <span style="font-style: italic;">et al., Nat Commun</span>, 2016)</a></p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">放射線から DNA を守る Dsup タンパク質</summary>
@@ -83,8 +84,8 @@ sections:
                 ">
               </div>
             </div>
-            <p>高線量の放射線や完全乾燥は DNA に二重鎖切断を始めとする重篤な障害を発生させます。こうしたストレスに耐性を示すヨコヅナクマムシは DNA を正常に保つ機能が高いと推定され、DNA に結合しているタンパク質の１つとして Dsup (Damage suppressor; ダメージを抑制するもの）と名付けたタンパク質を分離同定しました。Dsup はクマムシ以外には見つからないタンパク質でしたが、Dsup 遺伝子を組み込んだヒト培養細胞は、X 線によるDNA障害が約40%低減し、通常の細胞が死ぬような線量を照射したあとも一部の細胞は生き残り、増殖することがわかりました。<a href="https://doi.org/10.1038/ncomms12808" target="_blank">(Hashimoto <span style="font-style: italic;">et al., Nat Commun</span>, 2016)</a><br>
-            　世界中の研究室が様々な生物に Dsup を導入した結果、<a href="https://doi.org/10.1016/j.isci.2023.106998" target="_blank">ショウジョウバエ</a>や<a href="https://doi.org/10.1126/sciadv.adx9669" target="_blank">線虫</a>、<a href="https://doi.org/10.1038/s41467-025-63652-3" target="_blank">酵母</a>、<a href="https://doi.org/10.1016/j.plaphy.2023.108184" target="_blank">稲</a>、<a href="https://doi.org/10.1007/s12033-020-00273-9" target="_blank">タバコ</a>といった生物でも DNA の保護効果を示すことが報告されています。</p>
+            <p>高線量の放射線や完全乾燥は DNA に二重鎖切断を始めとする重篤な障害を発生させます。こうしたストレスに耐性を示すヨコヅナクマムシは DNA を正常に保つ機能が高いと推定され、DNA に結合しているタンパク質の１つとして Dsup (Damage suppressor; ダメージを抑制するもの）と名付けたタンパク質を分離同定しました。Dsup はクマムシ以外には見つからないタンパク質でしたが、Dsup 遺伝子を組み込んだヒト培養細胞は、X 線によるDNA障害が約40%低減し、通常の細胞が死ぬような線量を照射したあとも一部の細胞は生き残り、増殖することがわかりました。<a href="https://doi.org/10.1038/ncomms12808" target="_blank">(Hashimoto <span style="font-style: italic;">et al., Nat Commun</span>, 2016)</a></p>
+            <p>　世界中の研究室が様々な生物に Dsup を導入した結果、<a href="https://doi.org/10.1016/j.isci.2023.106998" target="_blank">ショウジョウバエ</a>や<a href="https://doi.org/10.1126/sciadv.adx9669" target="_blank">線虫</a>、<a href="https://doi.org/10.1038/s41467-025-63652-3" target="_blank">酵母</a>、<a href="https://doi.org/10.1016/j.plaphy.2023.108184" target="_blank">稲</a>、<a href="https://doi.org/10.1007/s12033-020-00273-9" target="_blank">タバコ</a>といった生物でも DNA の保護効果を示すことが報告されています。</p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">ストレスに応答して線維化して細胞を守る CAHS タンパク質</summary>
@@ -98,8 +99,8 @@ sections:
           <details name="tolerance">
             <summary class="hilite-summary">クマムシのゲノム編集技術を確立 ―耐性の謎に分子レベルで迫る―</summary>
             <img src="dipa-crispr-ja.jpg" alt="Dsup" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
-            <p>2024年、長年垂涎の的だったクマムシの個体レベルでの遺伝子改変技術を確立しました。雌親の腹腔へCas9 RNPを注入することで、次世代で効率的に編集個体を得ることが可能です（DIPA-CRISPR）。現在、ノックアウトだけでなく、ssODNを用いたノックインにも成功しています。<a href="https://doi.org/10.1371/journal.pgen.1011298" target="_blank">(Kondo <span style="font-style: italic;">et al., PLOS Genet</span>, 2024)</a><br>
-            　興味深いことに、得られた個体は編集配列をホモで保持していました。これは単為生殖特有の特殊な減数分裂機構に起因すると推測され、生物学的にも極めてユニークな現象です。本技術により、クマムシの極限耐性を支える分子ロジックの解明が劇的に加速することが期待されます。</p>
+            <p>2024年、長年垂涎の的だったクマムシの個体レベルでの遺伝子改変技術を確立しました。雌親の腹腔へCas9 RNPを注入することで、次世代で効率的に編集個体を得ることが可能です（DIPA-CRISPR）。現在、ノックアウトだけでなく、ssODNを用いたノックインにも成功しています。<a href="https://doi.org/10.1371/journal.pgen.1011298" target="_blank">(Kondo <span style="font-style: italic;">et al., PLOS Genet</span>, 2024)</a></p>
+            <p>　興味深いことに、得られた個体は編集配列をホモで保持していました。これは単為生殖特有の特殊な減数分裂機構に起因すると推測され、生物学的にも極めてユニークな現象です。本技術により、クマムシの極限耐性を支える分子ロジックの解明が劇的に加速することが期待されます。</p>
           </details>
           <details name="tolerance">
             <summary>発見したクマムシ固有の耐性遺伝子の配布</summary>
