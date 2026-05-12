@@ -13,18 +13,18 @@ sections:
         <img src="/media/kuni_portrait_lite.jpg" style="height: 170px; border-radius: 8px;">
         <div>
         <strong>教授　國枝武和</strong><br>
-        兵庫県立大学 理学研究科 生命科学専攻<br>
-        生体情報学II分野<br><br>
-        📧 Email: <a href="mailto:kunieda@sci.u-hyogo.ac.jp">kunieda [at] sci.u-hyogo.ac.jp</a><br>
+        兵庫県立大学 大学院理学研究科 生命科学専攻<br>
+        生体物質機能解析学部門 生体情報学II分野<br><br>
+        <i class="fas fa-paper-plane mr-1"></i> Email: <a href="mailto:kunieda@sci.u-hyogo.ac.jp">kunieda@sci.u-hyogo.ac.jp</a><br>
         </div>
         </div>
         <br>
-        〒678-1297<br>
+        <i class="fas fa-map-pin mr-1"></i> 〒678-1297<br>
         兵庫県赤穂郡上郡町光都3-2-1<br>
         播磨理学キャンパス・研究棟5階 520室<br>
         <br>
-        ■<a href="https://www.sci.u-hyogo.ac.jp/access/">アクセスマップ</a><br>
-        ■<a href="https://www.sci.u-hyogo.ac.jp/about/history/img/chizu.gif">キャンパスマップ</a>
+        <i class="fas fa-train mr-1"></i> <a href="https://www.sci.u-hyogo.ac.jp/access/">アクセスマップ</a><br>
+        <i class="fas fa-university mr-1"></i> <a href="https://www.sci.u-hyogo.ac.jp/about/history/img/chizu.gif">キャンパスマップ</a>
         
       #email: kunieda@sci.u-hyogo.ac.jp
       #phone: 888 888 88 88
