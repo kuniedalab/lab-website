@@ -57,7 +57,32 @@ sections:
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">放射線から DNA を守る Dsup タンパク質</summary>
-            <img src="dsup-ja.jpg" alt="Dsup" style="width: 100%; max-width:900px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
+            <div style="
+              display: flex; 
+              gap: 15px; 
+              flex-wrap: wrap; 
+              justify-content: center; 
+              align-items: center;
+            ">
+              <div style="flex: 1 1 300px; max-width: 450px;">
+                <img src="dsup1-ja.jpg" alt="Dsup1" style="
+                  width: 100%; 
+                  height: 500px; 
+                  object-fit: contain; 
+                  background-color: transparent; 
+                  border-radius: 10px;
+                ">
+              </div>
+              <div style="flex: 1 1 300px; max-width: 500px;">
+                <img src="dsup2-ja.jpg" alt="Dsup2" style="
+                  width: 100%; 
+                  height: 500px; 
+                  object-fit: contain; 
+                  background-color: transparent; 
+                  border-radius: 10px;
+                ">
+              </div>
+            </div>
             <p>高線量の放射線や完全乾燥は DNA に二重鎖切断を始めとする重篤な障害を発生させます。こうしたストレスに耐性を示すヨコヅナクマムシは DNA を正常に保つ機能が高いと推定され、DNA に結合しているタンパク質の１つとして Dsup (Damage suppressor; ダメージを抑制するもの）と名付けたタンパク質を分離同定しました。Dsup はクマムシ以外には見つからないタンパク質でしたが、Dsup 遺伝子を組み込んだヒト培養細胞は、X 線によるDNA障害が約40%低減し、通常の細胞が死ぬような線量を照射したあとも一部の細胞は生き残り、増殖することがわかりました。<a href="https://doi.org/10.1038/ncomms12808" target="_blank">(Hashimoto <span style="font-style: italic;">et al., Nat Commun</span>, 2016)</a><br>
             　世界中の研究室が様々な生物に Dsup を導入した結果、<a href="https://doi.org/10.1016/j.isci.2023.106998" target="_blank">ショウジョウバエ</a>や<a href="https://doi.org/10.1126/sciadv.adx9669" target="_blank">線虫</a>、<a href="https://doi.org/10.1038/s41467-025-63652-3" target="_blank">酵母</a>、<a href="https://doi.org/10.1016/j.plaphy.2023.108184" target="_blank">稲</a>、<a href="https://doi.org/10.1007/s12033-020-00273-9" target="_blank">タバコ</a>といった生物でも DNA の保護効果を示すことが報告されています。</p>
           </details>
