@@ -309,3 +309,8 @@ html[lang="en"] .i18n-dropdown .nav-link::before {
   flex: 0 0 100% !important;
 }
 
+@media (max-width: 800px) {
+  .img-pair {
+    flex-direction: column;
+  }
+}

@@ -58,30 +58,12 @@ sections:
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">放射線から DNA を守る Dsup タンパク質</summary>
-            <div style="
-              display: flex; 
-              gap: 15px; 
-              flex-wrap: wrap; 
-              justify-content: center; 
-              align-items: center;
-            ">
-              <div style="flex: 1 1 300px; max-width: 450px;">
-                <img src="dsup1-ja.jpg" alt="Dsup1" style="
-                  width: 100%; 
-                  height: 500px; 
-                  object-fit: contain; 
-                  background-color: transparent; 
-                  border-radius: 10px;
-                ">
+            <div class="img-pair" style="display: flex; gap: 15px; max-width: 1000px; margin: 0 auto;">
+              <div style="flex: 815;">
+                <img src="dsup1-ja.jpg" alt="Dsup1" style="display: block; width: 100%; height: auto; border-radius: 10px;">
               </div>
-              <div style="flex: 1 1 300px; max-width: 500px;">
-                <img src="dsup2-ja.jpg" alt="Dsup2" style="
-                  width: 100%; 
-                  height: 500px; 
-                  object-fit: contain; 
-                  background-color: transparent; 
-                  border-radius: 10px;
-                ">
+              <div style="flex: 966;">
+                <img src="dsup2-ja.jpg" alt="Dsup2" style="display: block; width: 100%; height: auto; border-radius: 10px;">
               </div>
             </div>
             <p>高線量の放射線や完全乾燥は DNA に二重鎖切断を始めとする重篤な障害を発生させます。こうしたストレスに耐性を示すヨコヅナクマムシは DNA を正常に保つ機能が高いと推定され、DNA に結合しているタンパク質の１つとして Dsup (Damage suppressor; ダメージを抑制するもの）と名付けたタンパク質を分離同定しました。Dsup はクマムシ以外には見つからないタンパク質でしたが、Dsup 遺伝子を組み込んだヒト培養細胞は、X 線によるDNA障害が約40%低減し、通常の細胞が死ぬような線量を照射したあとも一部の細胞は生き残り、増殖することがわかりました。<a href="https://doi.org/10.1038/ncomms12808" target="_blank">(Hashimoto <span style="font-style: italic;">et al., Nat Commun</span>, 2016)</a></p>
