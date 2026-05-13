@@ -1,11 +1,11 @@
 ---
 # Display name
-title: 豊島 聖羽
+title: 豊嶋 聖羽
 weight: 120
 
 # Full Name (for SEO)
 first_name: 聖羽
-last_name: 豊島
+last_name: 豊嶋
 
 # Is this the primary user of the site?
 superuser: false
