@@ -20,9 +20,9 @@ en:
       - name: News
         url: news
         weight: 10
-#      - name: Research
-#        url: research
-#        weight: 20
+      - name: Research
+        url: tolerance
+        weight: 20
       - name: Publication
         url: publication
         weight: 30

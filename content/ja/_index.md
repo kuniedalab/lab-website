@@ -26,7 +26,7 @@ sections:
       
       #  filename: welcome.jpg
       text: |
-        <br>
+        <br><br>
         クマムシやワムシなどの極限耐性生物を材料に、完全乾燥や極限ストレスに耐える仕組みを分子レベルで解き明かします。さらに、その知見をヒト細胞をはじめとする他種生物の耐性向上や、生体分子の乾燥保存へ応用展開しています。<br><br>
 
         <div style="display: flex; gap: 0px; flex-wrap: wrap; justify-content: flex-start; margin-bottom: -20px; line-height: 1;">
@@ -42,7 +42,7 @@ sections:
         <a href="https://www.sci.u-hyogo.ac.jp/life/biosig/japanese/yan_jiu_nei_rong.html" class="btn btn-lg btn-green-color">
           <i class="fas fa-arrows-spin mr-1"></i> 細胞周期
         </a>
-        </div>
+        </div><br>
         
     design:
       background:

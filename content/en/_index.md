@@ -12,8 +12,8 @@ sections:
       #  filename: welcome.jpg
       #  <h2 style="font-style: italic; ">- Mechanisms of Extreme Tolerance -</h2>
       text: |
-        <br>
-        We study extremotolerant organisms, including tardigrades, to elucidate the molecular mechanisms that enable survival under extreme stresses. We further apply these insights to enhance stress tolerance in other organisms, including human cells, and to protect biomolecules from drying.<br>
+        <br><br>
+        We study extremotolerant organisms, including tardigrades, to elucidate the molecular mechanisms that enable survival under extreme stresses. We further apply these insights to enhance stress tolerance in other organisms, including human cells, and to protect biomolecules from drying.<br><br><br><br>
 
     design:
       background:
