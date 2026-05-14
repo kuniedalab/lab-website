@@ -84,7 +84,10 @@ user_groups:
 クマムシやワムシに見られる、過酷な環境を生き抜く「極限環境耐性」の分子基盤を研究しています。特に完全に乾燥しても水を与えれば復活する「乾眠 (Anhydrobiosis)」に注目しています。<br><br>
 水を失い代謝を完全に停止させながらも、再給水によって生命活動を再開するこの特異なプロセスを、分子レベルで解き明かすことが当面の目標です。この知見は、生物のストレス耐性強化のみならず、タンパク質や核酸といったバイオ医薬品を常温乾燥保存する革新的技術への応用が期待されます。<br><br>
 
-私の学術的な関心は「生命体と非生物を分かつ境界はどこにあるのか」という点にあります。代謝が完全に停止した“物質”に近い状態から、いかにして生命としての秩序を再起動させるのか。乾眠の理解を通じて生命の本質を定義し、その原理を生命合成 (Synthetic Life) へと還元することを目指しています。<br><br>
+私の学術的な関心は「生命体と非生物を分かつ境界はどこにあるのか」という点にあります。代謝が完全に停止した“物質”に近い状態から、いかにして生命としての秩序を再起動させるのか。乾眠の理解を通じて生命の本質を定義し、その原理を生命合成 (Synthetic Life) へと還元することを目指しています。<br>
+<br>
+
+<!--
 クマムシの耐性遺伝子材料は下記から入手可能です。<br>
 <a href="https://www.addgene.org/Takekazu_Kunieda/" target="_blank">Addgene: Kunieda Lab</a><br>
 <a href="https://knowledge.brc.riken.jp/xsearch/catalog/list?__lang__=ja&query=Takekazu+Kunieda" target="_blank">理研BRC: Takekazu Kunieda</a><br>
@@ -95,3 +98,4 @@ user_groups:
 ・<a href="https://www.youtube.com/watch?v=UD0R37eGOec" target="_blank">2016 : Demystifying the resilience of water bears - UTokyo Research 英文リリース</a><br>
 ・<a href="https://www.youtube.com/watch?v=ERKDgQ1Cykw" target="_blank">2020 : 宇宙も平気なクマムシ - JAXA</a><br>
 ・<a href="https://www.youtube.com/watch?v=WRmGIK-mkQ4" target="_blank">2024 : 最強生物クマムシ - いまからサイエンス #60予告編 (BSテレ東)</a><br>
+-->
