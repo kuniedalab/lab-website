@@ -76,7 +76,7 @@ sections:
               Your browser does not support the video tag.
             </video>
             <img src="cahs-ja.jpg" alt="Dsup" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;">
-            <p>CAHSタンパク質もクマムシにしかないタンパク質ファミリーで2012年に当研究室により初めて同定されました。加熱しても沈殿しない性質を持ち、多くのクマムシ種で乾燥時に発現が顕著に増加します。近年、濃度上昇に伴って自発的に繊維を形成することが私たちを含む複数の研究室によりほぼ同時期に報告されました。私たちは、CAHSタンパク質が細胞内で脱水ストレスに応答して多数の繊維構造を形成し、細胞を物理的に強化してストレスから保護することを見出しました。この変化は可逆的でストレスがかかった時だけ、ちょうど鉄筋のような構造を細胞内に張り巡らせて守っているのではないかと考えています。<a href="https://doi.org/10.1371/journal.pbio.3001780" target="_blank">(Tanaka A <span style="font-style: italic;">et al., PLOS Biol</span>, 2022)</a></p>
+            <p>CAHSタンパク質もクマムシにしかないタンパク質ファミリーで2012年に当研究室により初めて同定されました。加熱しても沈殿しない性質を持ち、多くのクマムシ種で乾燥時に発現が顕著に増加します。近年、濃度上昇に伴って自発的に繊維を形成することが私たちを含む複数の研究室により独立に報告されました。私たちは、CAHSタンパク質が細胞内で脱水ストレスに応答して多数の繊維構造を形成し、細胞を物理的に強化してストレスから保護することを見出しました。この変化は可逆的でストレスがかかった時だけ、ちょうど鉄筋のような構造を細胞内に張り巡らせて守っているのではないかと考えています。<a href="https://doi.org/10.1371/journal.pbio.3001780" target="_blank">(Tanaka A <span style="font-style: italic;">et al., PLOS Biol</span>, 2022)</a></p>
           </details>
           <details name="tolerance">
             <summary class="hilite-summary">クマムシのゲノム編集技術を確立 ―耐性の謎に分子レベルで迫る―</summary>
