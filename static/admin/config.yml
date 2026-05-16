@@ -36,7 +36,7 @@ collections:
             required: false
             media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
             public_folder: ""             # ← 同上
-            choose_url: true
+            choose_url: false
             hint: "Filename should be 'featured.jpg'."
           - label: "Focal Point"
             name: "focal_point"
@@ -84,7 +84,7 @@ collections:
             required: false
             media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
             public_folder: ""             # ← 同上
-            choose_url: true
+            choose_url: false
             hint: "ファイル名はfeatured.jpgにしてください"
           - label: "焦点位置"
             name: "focal_point"
