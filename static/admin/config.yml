@@ -101,11 +101,11 @@ collections:
         widget: "list"
         required: false
         fields:
-        - label: "学位"
-          name: "courses"
-          widget: "list"
-          required: false
-          fields:
+#        - label: "学位"
+#          name: "courses"
+#          widget: "list"
+#          required: false
+#          fields:
             - {label: "学位", name: "course", widget: "string"}
             - {label: "機関", name: "institution", widget: "string"}
             - {label: "年", name: "year", widget: "string"}
