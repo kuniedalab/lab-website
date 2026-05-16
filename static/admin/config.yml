@@ -145,8 +145,8 @@ collections:
     label: "メンバー（日本語）"
     folder: "content/ja/authors"
     create: true
-    slug: "{{slug}}"
-    path: "{{slug}}/_index"          # ← 同様に
+    slug: "{{fields.name}}"  # ← 英名をslugに使用
+    path: "{{slug}}/_index"          # ← 同様にフォルダ名に使用
     extension: "md"
     fields:
       - {label: "氏名", name: "title", widget: "string"}
