@@ -125,11 +125,19 @@ collections:
     extension: "md"
     fields:
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Family Name", name: "last_name", widget: "string"}
       - {label: "First Name", name: "first_name", widget: "string"}
+      - {label: "Family Name", name: "last_name", widget: "string"}
       - {label: "Highlight Name", name: "highlight_name", widget: "boolean", default: true, required: false,
          hint: "If true, the name will be highlighted (e.g. Takekazu Kunieda → <strong>Takekazu Kunieda</strong>)"}
       - {label: "Role / Position", name: "role", widget: "string", required: false}
+      - label: "Group (Please select one)"
+        name: "user_groups"
+        widget: "select"
+        multiple: true
+        min: 1
+        max: 1
+        options: ["Staffs","Researchers","Grad Students"]
+        hint: "Display order is as follows: Staff 10-30, Researchers 40-50, Graduate Students 100-130, etc."
       - {label: "Display Order (Staff 10-30; Researchers 40-50; Graduate Students 100-130;)", name: "weight", widget: "string", required: false}
       - {label: "Bio", name: "bio", widget: "text", required: false}
       - label: "Avatar image"
