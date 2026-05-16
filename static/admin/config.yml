@@ -15,7 +15,7 @@ collections:
   # ────────────────────────────
   - name: "news-en"
     label: "News (English)"
-    folder: "content/en/post"
+    folder: "content/en/news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -30,9 +30,11 @@ collections:
   # ────────────────────────────
   - name: "news-ja"
     label: "ニュース（日本語）"
-    folder: "content/ja/post"
+    folder: "content/ja/news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: "{{slug}}/_index"          # ← サブフォルダ内の_index.mdを対象に
+    extension: "md"
     fields:
       - {label: "タイトル", name: "title", widget: "string"}
       - {label: "日付", name: "date", widget: "datetime"}
@@ -48,6 +50,8 @@ collections:
     folder: "content/en/authors"
     create: true
     slug: "{{slug}}"
+    path: "{{slug}}/_index"          # ← 同様に
+    extension: "md"
     fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Role / Position", name: "role", widget: "string", required: false}
@@ -81,4 +85,3 @@ collections:
          default: "avatar.jpg", required: false,
          hint: "avatar.jpg をこのフォルダと同じ場所に置いてください"}
       - {label: "本文（長い紹介文など）", name: "body", widget: "markdown", required: false}
-      
