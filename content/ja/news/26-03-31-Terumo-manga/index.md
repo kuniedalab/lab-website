@@ -1,5 +1,6 @@
 ---
 title: 生命科学DOKIDOKI研究室にクマムシ研究のマンガと記事を掲載いただきました
+id: Terumo-manga
 date: 2026-03-31
 authors: [Takekazu Kunieda]
 image:

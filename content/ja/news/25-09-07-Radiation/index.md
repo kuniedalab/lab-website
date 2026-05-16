@@ -1,5 +1,6 @@
 ---
 title: 【招待講演】第36回変異機構研究会・特別講演
+id: Radiation
 date: 2025-09-07
 authors: [Takekazu Kunieda]
 ---

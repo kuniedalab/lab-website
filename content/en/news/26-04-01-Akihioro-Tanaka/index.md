@@ -1,5 +1,6 @@
 ---
 title: Dr. Akihiro Tanaka Joins as Assistant Professor
+id: Akihiro-Tanaka
 date: 2026-04-01
 authors: [Akihiro Tanaka]
 image:

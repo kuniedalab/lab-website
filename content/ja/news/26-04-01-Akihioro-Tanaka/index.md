@@ -1,5 +1,6 @@
 ---
 title: 田中彬寛助教が着任しました
+id: Akihiro-Tanaka
 date: 2026-04-01
 authors: [Akihiro Tanaka]
 image:

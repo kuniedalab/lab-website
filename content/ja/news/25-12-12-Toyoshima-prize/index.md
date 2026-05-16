@@ -1,5 +1,6 @@
 ---
 title: 豊島聖羽さんがポスター賞を受賞しました
+id: Toyoshima-prize
 date: 2025-12-12
 authors: [Seiha Toyoshima]
 image:

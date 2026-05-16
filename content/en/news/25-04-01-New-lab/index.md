@@ -1,5 +1,6 @@
 ---
 title: Dr. Takekazu Kunieda Appointed as Professor of Biology
+id: New-lab
 date: 2025-04-01
 authors: [Takekazu Kunieda]
 image:

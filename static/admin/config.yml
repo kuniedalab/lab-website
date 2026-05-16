@@ -17,11 +17,12 @@ collections:
     label: "News (English)"
     folder: "content/en/news"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.id}}"  # ← IDをslugに使用
     path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
     extension: "md"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "ID (shared with Japanese version)", name: "id", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Authors", name: "authors", widget: "list"}
       - label: "Featured image"
@@ -64,11 +65,12 @@ collections:
     label: "ニュース（日本語）"
     folder: "content/ja/news"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.id}}"  # ← IDをslugに使用
     path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
     extension: "md"
     fields:
       - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "ID (英語版と共通にする)", name: "id", widget: "string"}
       - {label: "日付", name: "date", widget: "datetime"}
       - {label: "著者", name: "authors", widget: "list"}
       - label: "画像 (Featured image)"
@@ -118,16 +120,46 @@ collections:
     label: "Members (English)"
     folder: "content/en/authors"
     create: true
-    slug: "{{slug}}"
+    slug: "{{fields.title}}"  # ← 英名をslugに使用
     path: "{{slug}}/_index"          # ← 同様に
     extension: "md"
     fields:
       - {label: "Name", name: "title", widget: "string"}
+      - {label: "Family Name", name: "last_name", widget: "string"}
+      - {label: "First Name", name: "first_name", widget: "string"}
+      - {label: "Highlight Name", name: "highlight_name", widget: "boolean", default: true, required: false,
+         hint: "If true, the name will be highlighted (e.g. Takekazu Kunieda → <strong>Takekazu Kunieda</strong>)"}
       - {label: "Role / Position", name: "role", widget: "string", required: false}
+      - {label: "Display Order (Staff 10-30; Researchers 40-50; Graduate Students 100-130;)", name: "weight", widget: "string", required: false}
       - {label: "Bio", name: "bio", widget: "text", required: false}
-      - {label: "Avatar filename", name: "avatar_filename", widget: "string",
-         default: "avatar.jpg", required: false,
-         hint: "Place avatar.jpg in the same folder as this file"}
+      - label: "Avatar image"
+        name: "avatar"
+        widget: "image"
+        required: false
+        media_folder: ""   # ← _index.mdと同じフォルダに保存
+        public_folder: ""
+        hint: "File name must be avatar.jpg or avatar.png"
+      - label: "Institutional affiliation"
+        name: "organizations"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Name", name: "name", widget: "string", required: false}
+          - {label: "URL", name: "url", widget: "string", required: false}
+      - {label: "Interest areas (comma-separated)", name: "interests", widget: "list", required: false}
+      - label: "Education"
+        name: "education"
+        widget: "list"
+        required: false
+        fields:
+        - label: "Degree"
+          name: "courses"
+          widget: "list"
+          required: false
+          fields:
+            - {label: "Degree", name: "course", widget: "string"}
+            - {label: "Institution", name: "institution", widget: "string"}
+            - {label: "Year", name: "year", widget: "string"}
       - label: "Social links"
         name: "social"
         widget: "list"
@@ -154,7 +186,7 @@ collections:
       - {label: "名", name: "first_name", widget: "string"}
       - {label: "英名", name: "name", widget: "string"}
       - {label: "名前をハイライトする", name: "highlight_name", widget: "boolean", default: true, required: false,
-         hint: "trueにすると、氏名の英名部分を強調表示します（例：Takekazu Kunieda → <strong>Takekazu Kunieda</strong>）"}
+         hint: "trueにすると、氏名を強調表示します（例：Takekazu Kunieda → <strong>Takekazu Kunieda</strong>）"}
       - {label: "役職", name: "role", widget: "string"}
       - label: "グループ（1つだけ選んでください）"
         name: "user_groups"

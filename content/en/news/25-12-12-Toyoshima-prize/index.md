@@ -1,5 +1,6 @@
 ---
 title: Seiha Toyoshima Wins Poster Award
+id: Toyoshima-prize
 date: 2025-12-12
 authors: [Seiha Toyoshima]
 image:

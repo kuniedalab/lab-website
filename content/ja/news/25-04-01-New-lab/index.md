@@ -1,5 +1,6 @@
 ---
 title: 國枝武和教授が着任しました
+id: New-lab
 date: 2025-04-01
 authors:
   - Takekazu Kunieda

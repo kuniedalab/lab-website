@@ -1,5 +1,6 @@
 ---
 title: 【招待講演】小平市ふれあい下水道館30周年記念講演会
+id: Kodaira
 date: 2025-11-01
 authors: [Takekazu Kunieda]
 ---
