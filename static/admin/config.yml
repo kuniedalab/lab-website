@@ -23,6 +23,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Authors", name: "authors", widget: "list"}
 #      - {label: "Summary", name: "summary", widget: "text", required: false}
 #      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -40,6 +41,7 @@ collections:
     fields:
       - {label: "タイトル", name: "title", widget: "string"}
       - {label: "日付", name: "date", widget: "datetime"}
+      - {label: "著者", name: "authors", widget: "list"}
 #      - {label: "概要", name: "summary", widget: "text", required: false}
 #      - {label: "タグ", name: "tags", widget: "list", required: false}
       - {label: "本文", name: "body", widget: "markdown"}
@@ -98,7 +100,7 @@ collections:
         fields:
           - {label: "名称", name: "name", widget: "string", required: false}
           - {label: "URL", name: "url", widget: "string", required: false}
-      - {label: "興味・関心のある分野", name: "interests", widget: "text", required: false}
+      - {label: "興味・関心のある分野", name: "interests", widget: "list", required: false}
 #      - label: "興味・関心のある分野"
 #        name: "interests"
 #        widget: "list"
