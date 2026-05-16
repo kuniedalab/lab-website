@@ -1,6 +1,5 @@
-const CLIENT_ID = GITHUB_CLIENT_ID;
-
 export async function onRequest(context) {
+  const CLIENT_ID = context.env.GITHUB_CLIENT_ID;  // ← context.envから取得
   const url = new URL(context.request.url);
   const base = `${url.protocol}//${url.host}`;
 

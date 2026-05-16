@@ -1,7 +1,7 @@
-const CLIENT_ID = GITHUB_CLIENT_ID;
-const CLIENT_SECRET = GITHUB_CLIENT_SECRET;
-
 export async function onRequest(context) {
+  const CLIENT_ID = context.env.GITHUB_CLIENT_ID;      // ← context.envから取得
+  const CLIENT_SECRET = context.env.GITHUB_CLIENT_SECRET;  // ← context.envから取得
+
   const url = new URL(context.request.url);
   const code = url.searchParams.get("code");
 
@@ -33,12 +33,10 @@ export async function onRequest(context) {
   const token = tokenData.access_token;
   const provider = "github";
 
-  // Decap CMSが受け取れる形式のpostMessageを送る
   const script = `
     <script>
       (function() {
         function receiveMessage(e) {
-          console.log("receiveMessage %o", e);
           window.opener.postMessage(
             'authorization:${provider}:success:${JSON.stringify({ token, provider })}',
             e.origin
