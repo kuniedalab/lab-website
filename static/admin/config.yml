@@ -18,6 +18,8 @@ collections:
     folder: "content/en/news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
+    extension: "md"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
@@ -33,7 +35,7 @@ collections:
     folder: "content/ja/news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    path: "{{slug}}/_index"          # ← サブフォルダ内の_index.mdを対象に
+    path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
     extension: "md"
     fields:
       - {label: "タイトル", name: "title", widget: "string"}
