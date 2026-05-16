@@ -11,60 +11,13 @@ public_folder: "/media"
 collections:
 
   # ────────────────────────────
-  # ニュース・お知らせ（英語）
-  # ────────────────────────────
-  - name: "news-en"
-    label: "News (English)"
-    folder: "content/en/news"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{fields.id}}"  # ← IDをslugに使用
-    path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
-    extension: "md"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Article ID (shared with Japanese version)", name: "id", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Authors", name: "authors", widget: "list"}
-      - label: "Featured image"
-        name: "image"
-        widget: "object"
-        required: false
-        fields:
-          - label: "Image File"
-            name: "filename"
-            widget: "image"
-            required: false
-            media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
-            public_folder: ""             # ← 同上
-            choose_url: false
-            hint: "Filename should be 'featured.jpg'."
-          - label: "Focal Point"
-            name: "focal_point"
-            widget: "select"
-            required: false
-            default: "Smart"
-            options:
-              - {label: "Smart (Auto)", value: "Smart"}
-              - {label: "Center", value: "Center"}
-              - {label: "Top", value: "Top"}
-              - {label: "Bottom", value: "Bottom"}
-              - {label: "Left", value: "Left"}
-              - {label: "Right", value: "Right"}
-              - {label: "TopLeft", value: "TopLeft"}
-              - {label: "TopRight", value: "TopRight"}
-              - {label: "BottomLeft", value: "BottomLeft"}
-              - {label: "BottomRight", value: "BottomRight"}
-#      - {label: "Summary", name: "summary", widget: "text", required: false}
-#      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  # ────────────────────────────
   # ニュース・お知らせ（日本語）
   # ────────────────────────────
   - name: "news-ja"
     label: "ニュース（日本語）"
     folder: "content/ja/news"
     create: true
+    delete: false
     slug: "{{year}}-{{month}}-{{day}}-{{fields.id}}"  # ← IDをslugに使用
     path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
     extension: "md"
@@ -114,70 +67,53 @@ collections:
       - {label: "本文", name: "body", widget: "markdown"}
 
   # ────────────────────────────
-  # メンバー（英語）
+  # ニュース・お知らせ（英語）
   # ────────────────────────────
-  - name: "authors-en"
-    label: "Members (English)"
-    folder: "content/en/authors"
-    create: false
-    slug: "{{fields.title}}"  # ← 英名をslugに使用
-    path: "{{slug}}/_index"          # ← 同様に
+  - name: "news-en"
+    label: "News (English)"
+    folder: "content/en/news"
+    create: true
+    delete: false
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.id}}"  # ← IDをslugに使用
+    path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
     extension: "md"
     fields:
-      - {label: "Name", name: "title", widget: "string"}
-      - {label: "First Name", name: "first_name", widget: "string"}
-      - {label: "Family Name", name: "last_name", widget: "string"}
-      - {label: "Highlight Name", name: "highlight_name", widget: "boolean", default: true, required: false,
-         hint: "If true, the name will be highlighted (e.g. Takekazu Kunieda → <strong>Takekazu Kunieda</strong>)"}
-      - {label: "Role / Position", name: "role", widget: "string", required: false}
-      - label: "Group (Please select one)"
-        name: "user_groups"
-        widget: "select"
-        multiple: true
-        min: 1
-        max: 1
-        options: ["Staffs","Researchers","Grad Students"]
-        hint: "Display order is as follows: Staff 10-30, Researchers 40-50, Graduate Students 100-130, etc."
-      - {label: "Display Order (Staff 10-30; Researchers 40-50; Graduate Students 100-130;)", name: "weight", widget: "string", required: false}
-      - {label: "Bio", name: "bio", widget: "text", required: false}
-      - label: "Avatar image"
-        name: "avatar"
-        widget: "image"
-        required: false
-        media_folder: ""   # ← _index.mdと同じフォルダに保存
-        public_folder: ""
-        choose_url: false
-        hint: "File name must be avatar.jpg or avatar.png"
-      - label: "Institutional affiliation"
-        name: "organizations"
-        widget: "list"
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Article ID (shared with Japanese version)", name: "id", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Authors", name: "authors", widget: "list"}
+      - label: "Featured image"
+        name: "image"
+        widget: "object"
         required: false
         fields:
-          - {label: "Name", name: "name", widget: "string", required: false}
-          - {label: "URL", name: "url", widget: "string", required: false}
-      - {label: "Interest areas (comma-separated)", name: "interests", widget: "list", required: false}
-      - label: "Education"
-        name: "education"
-        widget: "list"
-        required: false
-        fields:
-        - label: "Degree"
-          name: "courses"
-          widget: "list"
-          required: false
-          fields:
-            - {label: "Degree", name: "course", widget: "string"}
-            - {label: "Institution", name: "institution", widget: "string"}
-            - {label: "Year", name: "year", widget: "string"}
-      - label: "Social links"
-        name: "social"
-        widget: "list"
-        required: false
-        fields:
-          - {label: "Icon (e.g. envelope, twitter, github)", name: "icon", widget: "string"}
-          - {label: "Icon pack (fas / fab / ai)", name: "icon_pack", widget: "string", default: "fas"}
-          - {label: "Link URL", name: "link", widget: "string"}
-      - {label: "Body (long bio / free text)", name: "body", widget: "markdown", required: false}
+          - label: "Image File"
+            name: "filename"
+            widget: "image"
+            required: false
+            media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
+            public_folder: ""             # ← 同上
+            choose_url: false
+            hint: "Filename should be 'featured.jpg'."
+          - label: "Focal Point"
+            name: "focal_point"
+            widget: "select"
+            required: false
+            default: "Smart"
+            options:
+              - {label: "Smart (Auto)", value: "Smart"}
+              - {label: "Center", value: "Center"}
+              - {label: "Top", value: "Top"}
+              - {label: "Bottom", value: "Bottom"}
+              - {label: "Left", value: "Left"}
+              - {label: "Right", value: "Right"}
+              - {label: "TopLeft", value: "TopLeft"}
+              - {label: "TopRight", value: "TopRight"}
+              - {label: "BottomLeft", value: "BottomLeft"}
+              - {label: "BottomRight", value: "BottomRight"}
+#      - {label: "Summary", name: "summary", widget: "text", required: false}
+#      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   # ────────────────────────────
   # メンバー（日本語）
@@ -186,6 +122,7 @@ collections:
     label: "メンバー（日本語）"
     folder: "content/ja/authors"
     create: false
+    delete: false
     slug: "{{fields.name}}"  # ← 英名をslugに使用
     path: "{{slug}}/_index"          # ← 同様にフォルダ名に使用
     extension: "md"
@@ -251,3 +188,71 @@ collections:
           - {label: "Icon pack (fas / fab / ai)", name: "icon_pack", widget: "string", default: "fas"}
           - {label: "Link URL", name: "link", widget: "string"}
       - {label: "本文（長い紹介文など）", name: "body", widget: "markdown", required: false}
+
+  # ────────────────────────────
+  # メンバー（英語）
+  # ────────────────────────────
+  - name: "authors-en"
+    label: "Members (English)"
+    folder: "content/en/authors"
+    create: false
+    delete: false
+    slug: "{{fields.title}}"  # ← 英名をslugに使用
+    path: "{{slug}}/_index"          # ← 同様に
+    extension: "md"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "First Name", name: "first_name", widget: "string"}
+      - {label: "Family Name", name: "last_name", widget: "string"}
+      - {label: "Highlight Name", name: "highlight_name", widget: "boolean", default: true, required: false,
+         hint: "If true, the name will be highlighted (e.g. Takekazu Kunieda → <strong>Takekazu Kunieda</strong>)"}
+      - {label: "Role / Position", name: "role", widget: "string", required: false}
+      - label: "Group (Please select one)"
+        name: "user_groups"
+        widget: "select"
+        multiple: true
+        min: 1
+        max: 1
+        options: ["Staffs","Researchers","Grad Students"]
+        hint: "Display order is as follows: Staff 10-30, Researchers 40-50, Graduate Students 100-130, etc."
+      - {label: "Display Order (Staff 10-30; Researchers 40-50; Graduate Students 100-130;)", name: "weight", widget: "string", required: false}
+      - {label: "Bio", name: "bio", widget: "text", required: false}
+      - label: "Avatar image"
+        name: "avatar"
+        widget: "image"
+        required: false
+        media_folder: ""   # ← _index.mdと同じフォルダに保存
+        public_folder: ""
+        choose_url: false
+        hint: "File name must be avatar.jpg or avatar.png"
+      - label: "Institutional affiliation"
+        name: "organizations"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Name", name: "name", widget: "string", required: false}
+          - {label: "URL", name: "url", widget: "string", required: false}
+      - {label: "Interest areas (comma-separated)", name: "interests", widget: "list", required: false}
+      - label: "Education"
+        name: "education"
+        widget: "list"
+        required: false
+        fields:
+        - label: "Degree"
+          name: "courses"
+          widget: "list"
+          required: false
+          fields:
+            - {label: "Degree", name: "course", widget: "string"}
+            - {label: "Institution", name: "institution", widget: "string"}
+            - {label: "Year", name: "year", widget: "string"}
+      - label: "Social links"
+        name: "social"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Icon (e.g. envelope, twitter, github)", name: "icon", widget: "string"}
+          - {label: "Icon pack (fas / fab / ai)", name: "icon_pack", widget: "string", default: "fas"}
+          - {label: "Link URL", name: "link", widget: "string"}
+      - {label: "Body (long bio / free text)", name: "body", widget: "markdown", required: false}
+
