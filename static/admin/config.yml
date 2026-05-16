@@ -81,9 +81,39 @@ collections:
     extension: "md"
     fields:
       - {label: "氏名", name: "title", widget: "string"}
+      - {label: "英名", name: "name", widget: "string"}
       - {label: "役職", name: "role", widget: "string", required: false}
+      - {label: "グループ", name: "user_groups", widget: "string", required: false}
+      - {label: "表示順（スタッフ 10-30; 研究員 40-50; 大学院生 100-130;）", name: "weight", widget: "string", required: false}
       - {label: "自己紹介（短）", name: "bio", widget: "text", required: false}
       - {label: "アバター画像ファイル名", name: "avatar_filename", widget: "string",
          default: "avatar.jpg", required: false,
          hint: "avatar.jpg をこのフォルダと同じ場所に置いてください"}
+      - label: "興味・関心のある分野"
+        name: "interests"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "分野", widget: "string"}
+          - {label: "分野", widget: "string"}
+          - {label: "分野", widget: "string"}
+      - label: "教育歴"
+        name: "education"
+        fields:
+        - label: "学位"
+          name: "courses"
+          widget: "list"
+          required: false
+          fields:
+            - {label: "学位", name: "course", widget: "string"}
+            - {label: "機関", name: "institution", widget: "string"}
+            - {label: "年", name: "year", widget: "string"}
+      - label: "Social links"
+        name: "social"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Icon (e.g. envelope, twitter, github)", name: "icon", widget: "string"}
+          - {label: "Icon pack (fas / fab / ai)", name: "icon_pack", widget: "string", default: "fas"}
+          - {label: "Link URL", name: "link", widget: "string"}
       - {label: "本文（長い紹介文など）", name: "body", widget: "markdown", required: false}
