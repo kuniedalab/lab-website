@@ -2,6 +2,7 @@
 # Display name
 title: 西山 遼太
 weight: 130
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: 遼太

@@ -3,6 +3,7 @@
 title: 國枝 武和
 name: Takekazu Kunieda
 weight: 10
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: 武和

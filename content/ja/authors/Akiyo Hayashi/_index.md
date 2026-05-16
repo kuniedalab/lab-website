@@ -2,6 +2,7 @@
 # Display name
 title: 林 晃世
 weight: 40
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: 晃世

@@ -2,6 +2,7 @@
 # Display name
 title: 豊嶋 聖羽
 weight: 120
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: 聖羽

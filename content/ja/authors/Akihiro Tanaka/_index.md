@@ -3,13 +3,14 @@
 title: 田中 彬寛
 name: Akihiro Tanaka
 weight: 30
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: 彬寛
 last_name: 田中
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: 助教

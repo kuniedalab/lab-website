@@ -2,10 +2,11 @@
 # Display name
 title: 原 友晴
 weight: 100
+avatar: avatar.jpg
 
 # Full Name (for SEO)
-first_name: Takekazu
-last_name: Kunieda
+first_name: 友晴
+last_name: 原
 
 # Is this the primary user of the site?
 superuser: false

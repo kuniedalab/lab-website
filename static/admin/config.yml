@@ -150,14 +150,24 @@ collections:
     extension: "md"
     fields:
       - {label: "氏名", name: "title", widget: "string"}
+      - {label: "姓", name: "last_name", widget: "string"}
+      - {label: "名", name: "first_name", widget: "string"}
       - {label: "英名", name: "name", widget: "string"}
-      - {label: "役職", name: "role", widget: "string", required: false}
-      - {label: "グループ", name: "user_groups", widget: "string", required: false}
+      - {label: "役職", name: "role", widget: "string"}
+      - label: "グループ"
+        name: "user_groups"
+        widget: "string"
+        options: ["スタッフ","研究員","大学院生"]
+        hint: "スタッフは10-30、研究員は40-50、大学院生は100-130など、表示順を数値で指定してください"
       - {label: "表示順（スタッフ 10-30; 研究員 40-50; 大学院生 100-130;）", name: "weight", widget: "string", required: false}
       - {label: "自己紹介（短）", name: "bio", widget: "text", required: false}
-      - {label: "アバター画像ファイル名", name: "avatar_filename", widget: "string",
-         default: "avatar.jpg", required: false,
-         hint: "avatar.jpg をこのフォルダと同じ場所に置いてください"}
+      - label: "アバター(Avatar)画像"
+        name: "avatar"
+        widget: "image"
+        required: false
+        media_folder: ""   # ← _index.mdと同じフォルダに保存
+        public_folder: ""
+        hint: "ファイル名は必ず avatar.jpg または avatar.png にしてください"
       - label: "所属機関"
         name: "organizations"
         widget: "list"

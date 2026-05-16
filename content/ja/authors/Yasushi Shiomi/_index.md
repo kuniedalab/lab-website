@@ -2,10 +2,11 @@
 # Display name
 title: 塩見 泰史
 weight: 20
+avatar: avatar.jpg
 
 # Full Name (for SEO)
-first_name: Takekazu
-last_name: Kunieda
+first_name: 泰史
+last_name: 塩見
 
 # Is this the primary user of the site?
 superuser: false

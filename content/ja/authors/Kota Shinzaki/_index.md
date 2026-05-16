@@ -2,13 +2,14 @@
 # Display name
 title: 新崎 康太
 weight: 50
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: 
 last_name: 
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: 客員研究員

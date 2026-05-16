@@ -2,6 +2,7 @@
 # Display name
 title: 滝田 楓佳
 weight: 110
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: 楓佳
