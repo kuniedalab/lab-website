@@ -20,16 +20,39 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
     extension: "md"
-    media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
-    public_folder: ""             # ← 同上
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Authors", name: "authors", widget: "list"}
-      - label: "Featured Image"
-        name: "featured"
-        widget: "image"
+      - label: "Featured image"
+        name: "image"
+        widget: "object"
         required: false
+        fields:
+          - label: "Image File"
+            name: "filename"
+            widget: "image"
+            required: false
+            media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
+            public_folder: ""             # ← 同上
+            choose_url: true
+            hint: "Filename should be 'featured.jpg'."
+          - label: "Focal Point"
+            name: "focal_point"
+            widget: "select"
+            required: false
+            default: "Smart"
+            options:
+              - {label: "Smart (Auto)", value: "Smart"}
+              - {label: "Center", value: "Center"}
+              - {label: "Top", value: "Top"}
+              - {label: "Bottom", value: "Bottom"}
+              - {label: "Left", value: "Left"}
+              - {label: "Right", value: "Right"}
+              - {label: "TopLeft", value: "TopLeft"}
+              - {label: "TopRight", value: "TopRight"}
+              - {label: "BottomLeft", value: "BottomLeft"}
+              - {label: "BottomRight", value: "BottomRight"}
 #      - {label: "Summary", name: "summary", widget: "text", required: false}
 #      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
