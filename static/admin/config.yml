@@ -154,14 +154,14 @@ collections:
       - {label: "名", name: "first_name", widget: "string"}
       - {label: "英名", name: "name", widget: "string"}
       - {label: "役職", name: "role", widget: "string"}
-      - label: "グループ"
+      - label: "グループ（1つだけ選んでください）"
         name: "user_groups"
         widget: "select"
         multiple: true
         min: 1
         max: 1
         options: ["スタッフ","研究員","大学院生"]
-        hint: "スタッフは10-30、研究員は40-50、大学院生は100-130など、表示順を数値で指定してください"
+        hint: "表示順は下記で、スタッフは10-30、研究員は40-50、大学院生は100-130など、数値で指定してください"
       - {label: "表示順（スタッフ 10-30; 研究員 40-50; 大学院生 100-130;）", name: "weight", widget: "string", required: false}
       - {label: "自己紹介（短）", name: "bio", widget: "text", required: false}
       - label: "アバター(Avatar)画像"
