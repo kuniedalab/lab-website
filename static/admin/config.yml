@@ -22,7 +22,7 @@ collections:
     extension: "md"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "ID (shared with Japanese version)", name: "id", widget: "string"}
+      - {label: "Article ID (shared with Japanese version)", name: "id", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Authors", name: "authors", widget: "list"}
       - label: "Featured image"
@@ -70,7 +70,7 @@ collections:
     extension: "md"
     fields:
       - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "ID (英語版と共通にする)", name: "id", widget: "string"}
+      - {label: "ArticleID (英語版と共通にする)", name: "id", widget: "string"}
       - {label: "日付", name: "date", widget: "datetime"}
       - {label: "著者", name: "authors", widget: "list"}
       - label: "画像 (Featured image)"
