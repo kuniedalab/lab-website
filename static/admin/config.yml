@@ -48,13 +48,42 @@ collections:
       - {label: "タイトル", name: "title", widget: "string"}
       - {label: "日付", name: "date", widget: "datetime"}
       - {label: "著者", name: "authors", widget: "list"}
-      - label: "Featured Image"
-        name: "featured"
-        widget: "image"
+      - label: "Featured image"
+        name: "image"
+        widget: "object"
         required: false
-        media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
-        public_folder: ""             # ← 同上
-        hint: "アップロード後、ファイル名をfeatured.jpgにリネームしてください"
+        fields:
+          - label: "Image File"
+            name: "filename"
+            widget: "image"
+            required: false
+            media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
+            public_folder: ""             # ← 同上
+            choose_url: true
+            hint: "ファイル名はfeatured.jpgにしてください"
+          - label: "Focal Point"
+            name: "focal_point"
+            widget: "select"
+            required: false
+            default: "Smart"
+            options:
+              - {label: "Smart (自動)", value: "Smart"}
+              - {label: "Center (中央)", value: "Center"}
+              - {label: "Top (上)", value: "Top"}
+              - {label: "Bottom (下)", value: "Bottom"}
+              - {label: "Left (左)", value: "Left"}
+              - {label: "Right (右)", value: "Right"}
+              - {label: "TopLeft (左上)", value: "TopLeft"}
+              - {label: "TopRight (右上)", value: "TopRight"}
+              - {label: "BottomLeft (左下)", value: "BottomLeft"}
+              - {label: "BottomRight (右下)", value: "BottomRight"}
+#        - label: "Featured Image"
+#          name: "featured"
+#          widget: "image"
+#          required: false
+#          media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
+#          public_folder: ""             # ← 同上
+#          hint: "アップロード後、ファイル名をfeatured.jpgにリネームしてください"
 #      - {label: "概要", name: "summary", widget: "text", required: false}
 #      - {label: "タグ", name: "tags", widget: "list", required: false}
       - {label: "本文", name: "body", widget: "markdown"}
