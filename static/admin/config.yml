@@ -95,8 +95,6 @@ collections:
         required: false
         fields:
           - {label: "分野", widget: "string"}
-          - {label: "分野", widget: "string"}
-          - {label: "分野", widget: "string"}
       - label: "教育歴"
         name: "education"
         fields:
