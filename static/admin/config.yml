@@ -71,12 +71,12 @@ collections:
       - {label: "タイトル", name: "title", widget: "string"}
       - {label: "日付", name: "date", widget: "datetime"}
       - {label: "著者", name: "authors", widget: "list"}
-      - label: "Featured image"
+      - label: "画像 (Featured image)"
         name: "image"
         widget: "object"
         required: false
         fields:
-          - label: "Image File"
+          - label: "画像ファイル"
             name: "filename"
             widget: "image"
             required: false
@@ -84,7 +84,7 @@ collections:
             public_folder: ""             # ← 同上
             choose_url: true
             hint: "ファイル名はfeatured.jpgにしてください"
-          - label: "Focal Point"
+          - label: "焦点位置"
             name: "focal_point"
             widget: "select"
             required: false
