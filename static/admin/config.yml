@@ -89,6 +89,7 @@ collections:
       - {label: "アバター画像ファイル名", name: "avatar_filename", widget: "string",
          default: "avatar.jpg", required: false,
          hint: "avatar.jpg をこのフォルダと同じ場所に置いてください"}
+      - {label: "興味・関心のある分野", name: "interests", widget: "text", required: false}
 #      - label: "興味・関心のある分野"
 #        name: "interests"
 #        widget: "list"
@@ -97,6 +98,8 @@ collections:
 #          - {label: "分野", widget: "string"}
       - label: "教育歴"
         name: "education"
+        widget: "list"
+        required: false
         fields:
         - label: "学位"
           name: "courses"
