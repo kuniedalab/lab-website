@@ -52,6 +52,9 @@ collections:
         name: "featured"
         widget: "image"
         required: false
+        media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
+        public_folder: ""             # ← 同上
+        hint: "アップロード後、ファイル名をfeatured.jpgにリネームしてください"
 #      - {label: "概要", name: "summary", widget: "text", required: false}
 #      - {label: "タグ", name: "tags", widget: "list", required: false}
       - {label: "本文", name: "body", widget: "markdown"}
