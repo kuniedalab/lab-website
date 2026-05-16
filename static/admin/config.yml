@@ -146,6 +146,7 @@ collections:
         required: false
         media_folder: ""   # ← _index.mdと同じフォルダに保存
         public_folder: ""
+        choose_url: false
         hint: "File name must be avatar.jpg or avatar.png"
       - label: "Institutional affiliation"
         name: "organizations"
@@ -212,6 +213,7 @@ collections:
         required: false
         media_folder: ""   # ← _index.mdと同じフォルダに保存
         public_folder: ""
+        choose_url: false
         hint: "ファイル名は必ず avatar.jpg または avatar.png にしてください"
       - label: "所属機関"
         name: "organizations"
