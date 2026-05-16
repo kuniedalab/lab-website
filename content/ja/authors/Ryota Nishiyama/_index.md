@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 西山 遼太
+name: Ryota Nishiyama
 weight: 130
 avatar: avatar.jpg
 

@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 新崎 康太
+name: Kota Shinzaki
 weight: 50
 avatar: avatar.jpg
 

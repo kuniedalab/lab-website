@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 豊嶋 聖羽
+name: Seiha Toyoshima
 weight: 120
 avatar: avatar.jpg
 

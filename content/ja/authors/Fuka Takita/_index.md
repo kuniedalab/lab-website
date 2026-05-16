@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 滝田 楓佳
+name: Fuka Takita
 weight: 110
 avatar: avatar.jpg
 

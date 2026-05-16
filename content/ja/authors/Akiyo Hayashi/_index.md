@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 林 晃世
+name: Akiyo Hayashi
 weight: 40
 avatar: avatar.jpg
 

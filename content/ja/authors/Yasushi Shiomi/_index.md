@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 塩見 泰史
+name: Yasushi Shiomi
 weight: 20
 avatar: avatar.jpg
 

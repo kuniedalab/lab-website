@@ -1,6 +1,7 @@
 ---
 # Display name
 title: 原 友晴
+name: Tomoharu Hara
 weight: 100
 avatar: avatar.jpg
 
