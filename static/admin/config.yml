@@ -89,6 +89,13 @@ collections:
       - {label: "アバター画像ファイル名", name: "avatar_filename", widget: "string",
          default: "avatar.jpg", required: false,
          hint: "avatar.jpg をこのフォルダと同じ場所に置いてください"}
+      - label: "所属機関"
+        name: "organizations"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "名称", name: "name", widget: "string", required: false}
+          - {label: "URL", name: "url", widget: "string", required: false}
       - {label: "興味・関心のある分野", name: "interests", widget: "text", required: false}
 #      - label: "興味・関心のある分野"
 #        name: "interests"
