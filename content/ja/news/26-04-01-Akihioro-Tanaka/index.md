@@ -2,6 +2,7 @@
 title: 田中彬寛助教が着任しました
 date: 2026-04-01
 authors: [Akihiro Tanaka]
+featured: featured.jpg
 image:
     focal_point: "Top"
 ---
