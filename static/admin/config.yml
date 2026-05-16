@@ -1,0 +1,84 @@
+backend:
+  name: github
+  repo: kuniedalab/lab-website
+  branch: main
+  base_url: https://kuniedalab.org
+  auth_endpoint: api/auth
+
+media_folder: "assets/media"
+public_folder: "/media"
+
+collections:
+
+  # ────────────────────────────
+  # ニュース・お知らせ（英語）
+  # ────────────────────────────
+  - name: "news-en"
+    label: "News (English)"
+    folder: "content/en/post"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Summary", name: "summary", widget: "text", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # ────────────────────────────
+  # ニュース・お知らせ（日本語）
+  # ────────────────────────────
+  - name: "news-ja"
+    label: "ニュース（日本語）"
+    folder: "content/ja/post"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "日付", name: "date", widget: "datetime"}
+      - {label: "概要", name: "summary", widget: "text", required: false}
+      - {label: "タグ", name: "tags", widget: "list", required: false}
+      - {label: "本文", name: "body", widget: "markdown"}
+
+  # ────────────────────────────
+  # メンバー（英語）
+  # ────────────────────────────
+  - name: "authors-en"
+    label: "Members (English)"
+    folder: "content/en/authors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Role / Position", name: "role", widget: "string", required: false}
+      - {label: "Bio", name: "bio", widget: "text", required: false}
+      - {label: "Avatar filename", name: "avatar_filename", widget: "string",
+         default: "avatar.jpg", required: false,
+         hint: "Place avatar.jpg in the same folder as this file"}
+      - label: "Social links"
+        name: "social"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Icon (e.g. envelope, twitter, github)", name: "icon", widget: "string"}
+          - {label: "Icon pack (fas / fab / ai)", name: "icon_pack", widget: "string", default: "fas"}
+          - {label: "Link URL", name: "link", widget: "string"}
+      - {label: "Body (long bio / free text)", name: "body", widget: "markdown", required: false}
+
+  # ────────────────────────────
+  # メンバー（日本語）
+  # ────────────────────────────
+  - name: "authors-ja"
+    label: "メンバー（日本語）"
+    folder: "content/ja/authors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "氏名", name: "title", widget: "string"}
+      - {label: "役職", name: "role", widget: "string", required: false}
+      - {label: "自己紹介（短）", name: "bio", widget: "text", required: false}
+      - {label: "アバター画像ファイル名", name: "avatar_filename", widget: "string",
+         default: "avatar.jpg", required: false,
+         hint: "avatar.jpg をこのフォルダと同じ場所に置いてください"}
+      - {label: "本文（長い紹介文など）", name: "body", widget: "markdown", required: false}
+      
