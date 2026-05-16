@@ -153,6 +153,8 @@ collections:
       - {label: "姓", name: "last_name", widget: "string"}
       - {label: "名", name: "first_name", widget: "string"}
       - {label: "英名", name: "name", widget: "string"}
+      - {label: "名前をハイライトする", name: "highlight_name", widget: "boolean", default: true, required: false,
+         hint: "trueにすると、氏名の英名部分を強調表示します（例：Takekazu Kunieda → <strong>Takekazu Kunieda</strong>）"}
       - {label: "役職", name: "role", widget: "string"}
       - label: "グループ（1つだけ選んでください）"
         name: "user_groups"
