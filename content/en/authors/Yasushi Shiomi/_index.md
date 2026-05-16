@@ -2,6 +2,7 @@
 # Display name
 title: Yasushi Shiomi
 weight: 20
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Takekazu

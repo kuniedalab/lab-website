@@ -2,6 +2,7 @@
 # Display name
 title: Takekazu Kunieda
 weight: 10
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Takekazu

@@ -2,6 +2,7 @@
 # Display name
 title: Kota Shinzaki
 weight: 50
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Kota

@@ -2,6 +2,7 @@
 # Display name
 title: Akiyo Hayashi
 weight: 40
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Akiyo

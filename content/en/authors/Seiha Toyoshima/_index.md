@@ -2,6 +2,7 @@
 # Display name
 title: Seiha Toyoshima
 weight: 120
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Seiha

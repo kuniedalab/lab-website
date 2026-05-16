@@ -2,6 +2,7 @@
 # Display name
 title: Tomoharu Hara
 weight: 100
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Tomoharu

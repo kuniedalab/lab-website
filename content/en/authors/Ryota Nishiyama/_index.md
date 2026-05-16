@@ -2,6 +2,7 @@
 # Display name
 title: Ryota Nishiyama
 weight: 130
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Ryota

@@ -2,6 +2,7 @@
 # Display name
 title: Akihiro Tanaka
 weight: 30
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Akihiro

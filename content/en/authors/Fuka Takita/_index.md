@@ -2,6 +2,7 @@
 # Display name
 title: Fuka Takita
 weight: 110
+avatar: avatar.jpg
 
 # Full Name (for SEO)
 first_name: Fuka
