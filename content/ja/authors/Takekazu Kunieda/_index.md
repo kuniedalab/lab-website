@@ -58,9 +58,12 @@ social:
   - icon: r
     icon_pack: fas
     link: 'https://researchmap.jp/kunieda'
-  - icon: youtube
-    icon_pack: fab
-    link: https://www.youtube.com/@takekazukunieda601
+  - icon: k
+    icon_pack: fas
+    link: 'https://nrid.nii.ac.jp/ja/nrid/1000010463879/'
+#  - icon: youtube
+#    icon_pack: fab
+#    link: https://www.youtube.com/@takekazukunieda601
 #  - icon: researchgate
 #    icon_pack: ai
 #    link: https://www.researchgate.net/profile/Takekazu-Kunieda
