@@ -1,7 +1,9 @@
 ---
 title: 國枝武和教授が着任しました
 date: 2025-04-01
-authors: [Takekazu Kunieda]
+authors:
+  - Takekazu Kunieda
+featured: featured.png
 ---
 
 2025年4月1日付で、兵庫県立大学 大学院理学研究科 生命科学専攻 生体情報学II講座の教授として、國枝武和が着任しました。
