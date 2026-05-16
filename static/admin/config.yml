@@ -20,10 +20,16 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     path: "{{slug}}/index"          # ← サブフォルダ内のindex.mdを対象に
     extension: "md"
+    media_folder: ""              # ← 空にすると記事フォルダ内に画像保存
+    public_folder: ""             # ← 同上
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Authors", name: "authors", widget: "list"}
+      - label: "Featured Image"
+        name: "featured"
+        widget: "image"
+        required: false
 #      - {label: "Summary", name: "summary", widget: "text", required: false}
 #      - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -42,6 +48,10 @@ collections:
       - {label: "タイトル", name: "title", widget: "string"}
       - {label: "日付", name: "date", widget: "datetime"}
       - {label: "著者", name: "authors", widget: "list"}
+      - label: "Featured Image"
+        name: "featured"
+        widget: "image"
+        required: false
 #      - {label: "概要", name: "summary", widget: "text", required: false}
 #      - {label: "タグ", name: "tags", widget: "list", required: false}
       - {label: "本文", name: "body", widget: "markdown"}
