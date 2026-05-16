@@ -2,6 +2,7 @@
 title: 【招待講演】小平市ふれあい下水道館30周年記念講演会
 date: 2025-11-01
 authors: [Takekazu Kunieda]
+featured:
 ---
 
 2025年11月1日にルネこだいら（東京都小平市）で開催された<a href="https://kodaira-sewer.jp/" target="_blank">小平市ふれあい下水道館様</a>の開館30周年記念講演会にて「クマムシの謎と生命のフシギ」というタイトルで講演させていただきました。
