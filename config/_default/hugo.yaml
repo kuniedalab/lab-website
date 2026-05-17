@@ -62,3 +62,6 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+buildFuture: true
+buildExpired: true
+
