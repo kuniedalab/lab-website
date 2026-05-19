@@ -87,7 +87,9 @@ sections:
           <details name="tolerance">
             <summary>発見したクマムシ固有の耐性遺伝子の配布</summary>
             <p>私たちが発見したクマムシ固有の耐性遺伝子などについては下記の配布機関から入手することができます（原則として研究機関に限ります）。<br>
-            ・<a href="https://www.addgene.org/Takekazu_Kunieda/" target="_blank">Addgene: Kunieda Lab</a><br>
+            <!-- ・<a href="https://www.addgene.org/Takekazu_Kunieda/" target="_blank">Addgene: Kunieda Lab</a><br> -->
+            <div style="width: 280px; border: thin solid #888; padding: 10px; text-align: center;"><a href="https://www.addgene.org/Takekazu_Kunieda/" style="text-decoration: none;  font-size: 16px; font-family: Arial,Helvetica,sans-serif;" target="_blank" rel="noopener noreferrer"><b>Takekazu Kunieda Lab</b><br>Find and request materials through<br><img style="margin-top: 16px;" width="250" height="48" alt="Addgene" src="https://media.addgene.org/cms/filer_public/8a/bb/8abbe848-dd7e-4a14-8711-d50e96d6f1e0/addgene-logo.png"></a></div>
+            <br>
             ・<a href="https://knowledge.brc.riken.jp/xsearch/catalog/list?__lang__=ja&query=Takekazu+Kunieda" target="_blank">理研BRC: Takekazu Kunieda</a><br>
             </p>
           </details>
