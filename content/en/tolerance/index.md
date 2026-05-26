@@ -14,6 +14,7 @@ sections:
           Your browser does not support the video tag.
         </video>
         <br>
+        We take a genome-to-function approach: we first identify tardigrade-unique genes through genomic, transcriptomic and proteomic analyses, then elucidate their molecular mechanisms.<br>
         <div class="faq">
           <details name="tolerance" open>
             <summary>Genome Sequencing of <i>Ramazzottius varieornatus</i>: A Treasure Trove of Unique Genes</summary>
@@ -43,7 +44,7 @@ sections:
               Your browser does not support the video tag.
             </video>
             <img src="cahs-en.jpg" alt="CAHS Protein" style="width: 100%; max-width:600px; height: auto; border-radius: 10px; display: block; margin: 0 auto;"> -->
-            <p>CAHS (Cytoplasmic Abundant Heat-Soluble) proteins are a tardigrade-specific family first identified by our lab in 2012. These proteins are highly heat-resistant and their expression significantly increases during desiccation in many species. Recent reports from multiple labs, including ours, have shown that CAHS proteins spontaneously form filaments as their concentration rises. We discovered that CAHS proteins form extensive fibrous networks in response to dehydration stress, physically reinforcing the cell. This process is reversible; we believe these proteins act like a temporary "rebar" or structural scaffold that protects the cell only when under stress. <a href="https://doi.org/10.1371/journal.pbio.3001780" target="_blank">(Tanaka A <span style="font-style: italic;">et al., PLOS Biol</span>, 2022)</a></p>
+            <p>Our lab has identified multiple families of tardigrade-specific protective proteins, including CAHS, SAHS, MAHS, and RvLEAM. Among these, CAHS (Cytoplasmic Abundant Heat-Soluble) proteins, first identified by our lab in 2012, have been most extensively characterized. These highly heat-resistant proteins are significantly upregulated during desiccation across many species. Recent reports from multiple labs, including ours, have shown that CAHS proteins spontaneously form filaments as their concentration rises. We discovered that CAHS proteins form extensive fibrous networks in response to dehydration stress, physically reinforcing the cell. This process is reversible; we believe these proteins act like a temporary "rebar" or structural scaffold that protects the cell only when under stress. <a href="https://doi.org/10.1371/journal.pbio.3001780" target="_blank">(Tanaka A <span style="font-style: italic;">et al., PLOS Biol</span>, 2022)</a></p>
           </details>
 
           <details name="tolerance">
