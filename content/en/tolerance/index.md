@@ -14,7 +14,7 @@ sections:
           Your browser does not support the video tag.
         </video>
         <br>
-        We take a genome-to-function approach: we first identify tardigrade-unique genes through genomic, transcriptomic and proteomic analyses, then elucidate their molecular mechanisms.<br>
+        We take a genome-to-function approach: we first identify tardigrade-unique genes through genomic, transcriptomic and proteomic analyses, then elucidate their molecular mechanisms.<br><br>
         <div class="faq">
           <details name="tolerance" open>
             <summary>Genome Sequencing of <i>Ramazzottius varieornatus</i>: A Treasure Trove of Unique Genes</summary>
