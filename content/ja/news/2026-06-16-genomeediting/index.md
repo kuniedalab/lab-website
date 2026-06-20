@@ -1,5 +1,5 @@
 ---
-title: 日本ゲノム編集学会で講演
+title: 日本ゲノム編集学会で講演（招待）
 id: GenomeEditing
 date: 2026-06-16T13:00:00.000+09:00
 authors:
