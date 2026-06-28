@@ -15,7 +15,7 @@ sections:
           - スタッフ
           - 研究員
           - 大学院生
-          - Undergrad Students
+          - 学部生
           - Administration
           - Visitors
           - Alumni
@@ -28,8 +28,9 @@ sections:
 
   - block: markdown
     content:
-      title: 学部生
+      title: # 学部生
       text: |-
+        <!--
         <div class="row justify-content-center people-widget">
           <div class="col-12 col-sm-auto people-person">
             <div class="portrait-title">
@@ -80,4 +81,5 @@ sections:
             </div>
           </div>
         </div>
+        -->
 ---
