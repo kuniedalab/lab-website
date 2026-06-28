@@ -26,60 +26,60 @@ sections:
       show_role: true
       show_social: true
 
-  - block: markdown
-    content:
-      title: # 学部生
-      text: |-
-        <!--
-        <div class="row justify-content-center people-widget">
-          <div class="col-12 col-sm-auto people-person">
-            <div class="portrait-title">
-              <h2 class="undergrad-name">池田 真捺</h2>
-              <h3>B4（クマムシ）</h3>
-            </div>
-          </div>
-          <div class="col-12 col-sm-auto people-person">
-            <div class="portrait-title">
-              <h2 class="undergrad-name">岸本 凌河</h2>
-              <h3>B4（クマムシ）</h3>
-            </div>
-          </div>
-          <div class="col-12 col-sm-auto people-person">
-            <div class="portrait-title">
-              <h2 class="undergrad-name">楠本 直央</h2>
-              <h3>B4（ワムシ）</h3>
-            </div>
-          </div>
-          <div class="col-12 col-sm-auto people-person">
-            <div class="portrait-title">
-              <h2 class="undergrad-name">佐藤 優成</h2>
-              <h3>B4（ワムシ）</h3>
-            </div>
-          </div>
-          <div class="col-12 col-sm-auto people-person">
-            <div class="portrait-title">
-              <h2 class="undergrad-name">新貝 天眞</h2>
-              <h3>B4（細胞周期）</h3>
-            </div>
-          </div>
-          <div class="col-12 col-sm-auto people-person">
-            <div class="portrait-title">
-              <h2 class="undergrad-name">細木 健翔</h2>
-              <h3>B4（ワムシ）</h3>
-            </div>
-          </div>
-          <div class="col-12 col-sm-auto people-person">
-            <div class="portrait-title">
-              <h2 class="undergrad-name">宮﨑 由衣</h2>
-              <h3>B4（クマムシ）</h3>
-            </div>
-          </div>
-          <div class="col-12 col-sm-auto people-person">
-            <div class="portrait-title">
-              <h2 class="undergrad-name">湯浅 大作</h2>
-              <h3>B4（クマムシ）</h3>
-            </div>
-          </div>
-        </div>
-        -->
+  # - block: markdown
+  #   content:
+  #     title: # 学部生（早期配属）
+  #     text: |-
+  #       <!--
+  #       <div class="row justify-content-center people-widget">
+  #         <div class="col-12 col-sm-auto people-person">
+  #           <div class="portrait-title">
+  #             <h2 class="undergrad-name">池田 真捺</h2>
+  #             <h3>B4（クマムシ）</h3>
+  #           </div>
+  #         </div>
+  #         <div class="col-12 col-sm-auto people-person">
+  #           <div class="portrait-title">
+  #             <h2 class="undergrad-name">岸本 凌河</h2>
+  #             <h3>B4（クマムシ）</h3>
+  #           </div>
+  #         </div>
+  #         <div class="col-12 col-sm-auto people-person">
+  #           <div class="portrait-title">
+  #             <h2 class="undergrad-name">楠本 直央</h2>
+  #             <h3>B4（ワムシ）</h3>
+  #           </div>
+  #         </div>
+  #         <div class="col-12 col-sm-auto people-person">
+  #           <div class="portrait-title">
+  #             <h2 class="undergrad-name">佐藤 優成</h2>
+  #             <h3>B4（ワムシ）</h3>
+  #           </div>
+  #         </div>
+  #         <div class="col-12 col-sm-auto people-person">
+  #           <div class="portrait-title">
+  #             <h2 class="undergrad-name">新貝 天眞</h2>
+  #             <h3>B4（細胞周期）</h3>
+  #           </div>
+  #         </div>
+  #         <div class="col-12 col-sm-auto people-person">
+  #           <div class="portrait-title">
+  #             <h2 class="undergrad-name">細木 健翔</h2>
+  #             <h3>B4（ワムシ）</h3>
+  #           </div>
+  #         </div>
+  #         <div class="col-12 col-sm-auto people-person">
+  #           <div class="portrait-title">
+  #             <h2 class="undergrad-name">宮﨑 由衣</h2>
+  #             <h3>B4（クマムシ）</h3>
+  #           </div>
+  #         </div>
+  #         <div class="col-12 col-sm-auto people-person">
+  #           <div class="portrait-title">
+  #             <h2 class="undergrad-name">湯浅 大作</h2>
+  #             <h3>B4（クマムシ）</h3>
+  #           </div>
+  #         </div>
+  #       </div>
+  #       -->
 ---
