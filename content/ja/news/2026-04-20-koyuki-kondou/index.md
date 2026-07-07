@@ -2,7 +2,8 @@
 title: 近藤小雪さんにお越しいただきました
 id: koyuki-kondou
 date: 2026-04-20T09:30:00.000+09:00
-authors: [Yui Miyazaki]
+authors:
+  - 宮﨑 由衣
 image:
   focal_point: Center
   filename: 近藤さん来校　インジェクション講座.jpg
