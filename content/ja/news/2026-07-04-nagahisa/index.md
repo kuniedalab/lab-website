@@ -2,6 +2,8 @@
 title: 田中彬寛助教がながひさ科学振興財団の第4回研究奨励金贈呈式にて終了報告をしました
 id: nagahisa
 date: 2026-07-04T15:39:00.000+09:00
+authors:
+  - tanakaakihiro
 image:
   focal_point: Smart
 ---
