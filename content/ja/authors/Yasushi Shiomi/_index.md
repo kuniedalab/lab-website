@@ -1,77 +1,22 @@
 ---
-# Display name
 title: 塩見 泰史
+last_name: 塩見
+first_name: 泰史
 name: Yasushi Shiomi
+highlight_name: true
+role: 准教授
 weight: 20
 avatar: avatar.jpg
-
-# Full Name (for SEO)
-first_name: 泰史
-last_name: 塩見
-
-# Is this the primary user of the site?
-superuser: false
-
-# Role/position
-role: 准教授
-
-# Organizations/Affiliations
 organizations:
   - name: 兵庫県立大学
-#    url: 'https://kuniedalab.org/ja/'
-    url: 'https://www.sci.u-hyogo.ac.jp/'
-
-# Short bio (displayed in user profile at end of posts)
-bio: 
-
-interests:
-#   - 
-
-education:
-#   courses:
-#     - course: PhD in Science
-#       institution: University of Hyogo
-#       year: 1998
-#     - course: Master of Science
-#       institution: University of Hyogo
-#       year: 1995
-#     - course: Bachelar of Science
-#       institution: University of Hyogo
-#       year: 1993
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-#   - icon: envelope
-#     icon_pack: fas
-#     link: 'mailto:kunieda@sci.u-hyogo.ac.jp'
-#   - icon: x-twitter
-#     icon_pack: fab
-#     link: https://x.com/kuniedat
-#   - icon: google-scholar
-#     icon_pack: ai
-#     link: https://scholar.google.co.jp/citations?user=fgbwU-IAAAAJ
-#   - icon: researchgate
-#     icon_pack: ai
-#     link: https://www.researchgate.net/profile/Takekazu-Kunieda
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+    url: https://www.sci.u-hyogo.ac.jp/
+superuser: false
 user_groups:
   - スタッフ
+bio: null
+interests: null
+education: null
+social: null
+email: ""
 ---
-<!-- <strong>Takekazu Kunieda</strong> is a Professor of Extreme Biology at the University of Hyogo, Japan. He leads the Biological Signaling II Lab, which explores the molecular mechanisms of extreme resilience in <strong>tardigrades and rotifers</strong>.<br><br> His work seeks to bridge these natural survival strategies with the <strong>synthesis of artificial life</strong>, ultimately aiming to illuminate <strong>the fundamental boundary between inanimate matter and living systems</strong>. -->
-
+私たちの体をつくる細胞は、遺伝情報を正確に複製し、次の世代の細胞へと受け渡しながら増殖しています。私は、この過程で生じるさまざまな異常やストレスに対応し、細胞が安定して生き続けるための仕組みに関心をもっています。遺伝情報を守り、細胞の生命活動を支える分子機構を明らかにすることで、その破綻がゲノムの不安定化やがんの発生・進展にどのようにつながるのかを理解することを目指しています。
