@@ -1,7 +1,7 @@
 ---
 title: 第78回日本細胞生物学会大会で田中彬寛助教が招待講演しました
 id: cell biology meeting 2026
-date: 2026-07-13T14:58
+date: 2026-07-13T00:00:00+09:00
 authors:
   - Akihiro Tanaka
 image: null
