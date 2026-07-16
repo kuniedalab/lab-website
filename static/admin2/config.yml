@@ -142,7 +142,7 @@ collections:
         max: 1
         options: ["スタッフ","研究員","大学院生","学部生","学部生（早期配属）"]
         hint: "表示順は下記で、スタッフは10-30、研究員は40-50、大学院生は100-190など、数値で指定してください"
-      - {label: "表示順（スタッフ 10-30; 研究員 40-50; 大学院生 100-190; 学部生 200-290; 学部生（早期配属） 300-390）", name: "weight", widget: "string", required: false}
+      - {label: "表示順（スタッフ 10-30; 研究員 40-50; 大学院生 100-190; 学部生 200-290; 学部生（早期配属） 300-390）", name: "weight", widget: "number", required: false}
       - {label: "自己紹介（短）", name: "bio", widget: "text", required: false}
       - label: "アバター(Avatar)画像"
         name: "avatar"
@@ -215,7 +215,7 @@ collections:
         max: 1
         options: ["Staffs","Researchers","Grad Students"]
         hint: "Display order is as follows: Staff 10-30, Researchers 40-50, Graduate Students 100-130, etc."
-      - {label: "Display Order (Staff 10-30; Researchers 40-50; Graduate Students 100-130;)", name: "weight", widget: "string", required: false}
+      - {label: "Display Order (Staff 10-30; Researchers 40-50; Graduate Students 100-130;)", name: "weight", widget: "number", required: false}
       - {label: "Bio", name: "bio", widget: "text", required: false}
       - label: "Avatar image"
         name: "avatar"
