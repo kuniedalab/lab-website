@@ -9,7 +9,7 @@ user_groups:
   - 大学院生
 weight: ''
 bio: ''
-avatar: image1 モザイク.png
+avatar: ''
 organizations:
   - name: 兵庫県立大学
     url: https://www.sci.u-hyogo.ac.jp/
