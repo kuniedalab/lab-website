@@ -14,8 +14,9 @@ organizations:
   - name: 兵庫県立大学
     url: https://www.sci.u-hyogo.ac.jp/
 interests: null
-education: null
-social: null
+education:
+  - courses: []
+social: []
 email: ''
 superuser: false
 ---
