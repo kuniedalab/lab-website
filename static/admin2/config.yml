@@ -80,7 +80,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Article ID (shared with Japanese version)", name: "id", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ", picker_utc: false}
       - {label: "Authors", name: "authors", widget: "list"}
       - label: "Featured image"
         name: "image"
@@ -235,7 +235,7 @@ collections:
       - {label: "Interest areas (comma-separated)", name: "interests", widget: "list", required: false}
       - label: "Education"
         name: "education"
-        widget: "list"
+        widget: "object"
         required: false
         fields:
         - label: "Degree"
