@@ -9,7 +9,7 @@ user_groups:
   - 大学院生
 weight: 120
 bio: ''
-avatar: avatar-2.jpg
+avatar: avatar.jpg
 organizations:
   - name: 兵庫県立大学
     url: https://www.sci.u-hyogo.ac.jp/
