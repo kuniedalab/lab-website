@@ -7,7 +7,7 @@ highlight_name: true
 role: M1（ワムシ）
 user_groups:
   - 大学院生
-weight: ''
+weight: 120
 bio: ''
 avatar: avatar-2.jpg
 organizations:
@@ -17,8 +17,8 @@ interests: null
 education:
   courses: []
 social: []
-email: ''
 superuser: false
+email: ''
 ---
 
 <!-- <strong>Takekazu Kunieda</strong> is a Professor of Extreme Biology at the University of Hyogo, Japan. He leads the Biological Signaling II Lab, which explores the molecular mechanisms of extreme resilience in <strong>tardigrades and rotifers</strong>.<br><br> His work seeks to bridge these natural survival strategies with the <strong>synthesis of artificial life</strong>, ultimately aiming to illuminate <strong>the fundamental boundary between inanimate matter and living systems</strong>. -->
