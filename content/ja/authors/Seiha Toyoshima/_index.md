@@ -15,7 +15,7 @@ organizations:
     url: https://www.sci.u-hyogo.ac.jp/
 interests: null
 education:
-  - courses: []
+  courses: []
 social: []
 email: ''
 superuser: false
