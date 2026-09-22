@@ -7,15 +7,15 @@ highlight_name: true
 role: M1（細胞周期）
 user_groups:
   - 大学院生
-weight: ''
+weight: 130
 bio: 品行方正清廉潔白天上天下唯我独尊西山遼太です
 avatar: avatar.jpg
 organizations:
   - name: 兵庫県立大学
     url: https://www.sci.u-hyogo.ac.jp/
-interests: null
+interests: []
 education: null
-social: null
+social: []
 email: ''
 superuser: false
 ---
