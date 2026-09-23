@@ -3,7 +3,8 @@ title: 兵庫県立大学価値共創シンポジウム
 id: nishiyama
 date: 2026-09-18T13:39:00+09:00
 authors:
-  - 塩見 泰史
+  - Yasushi Shiomi
+  - Ryota Nishiyama
 image: null
 ---
 
