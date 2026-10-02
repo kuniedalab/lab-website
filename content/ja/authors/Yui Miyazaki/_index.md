@@ -10,12 +10,14 @@ user_groups:
 weight: 270
 bio: ヨコヅナクマムシの胚の乾燥耐性について詳しく知りたい
 avatar: avatar.jpg
+# Organizations/Affiliations
 organizations:
   - name: 兵庫県立大学
-    url: https://www.sci.u-hyogo.ac.jp/
-interests: null
+    url: 'https://www.sci.u-hyogo.ac.jp/'
+
+interests: []
 education: null
-social: null
+social: []
 email: ''
 superuser: false
 ---
