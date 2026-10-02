@@ -16,6 +16,7 @@ sections:
           - 研究員
           - 大学院生
           - 学部生
+          - 学部生（早期配属）
           - Administration
           - Visitors
           - Alumni
