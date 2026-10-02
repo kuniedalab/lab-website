@@ -121,7 +121,7 @@ collections:
   - name: "authors-ja"
     label: "メンバー（日本語）"
     folder: "content/ja/authors"
-    create: false
+    create: true
     delete: false
     slug: "{{fields.name}}"  # ← 英名をslugに使用
     path: "{{slug}}/_index"          # ← 同様にフォルダ名に使用
@@ -195,7 +195,7 @@ collections:
   - name: "authors-en"
     label: "Members (English)"
     folder: "content/en/authors"
-    create: false
+    create: true
     delete: false
     slug: "{{fields.title}}"  # ← 英名をslugに使用
     path: "{{slug}}/_index"          # ← 同様に
